@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **CF1 Estrategias mejora continua lean**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF1_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/](https://ecored-sena.github.io/CF1_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/)
 
 #
 
