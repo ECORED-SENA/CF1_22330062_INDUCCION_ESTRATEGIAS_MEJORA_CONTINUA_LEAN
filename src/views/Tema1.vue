@@ -95,6 +95,7 @@
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.jpg')})`}")
             .bloque-texto-g__texto.p-4
               p(data-aos="fade-down").mb-0 <b>Herramientas y técnicas de la manufactura esbelta</b> <br><br/>Las empresas de diferentes sectores materializan la implementación del Lean manufacturing mediante la aplicación de una gran variedad de técnicas, que son muy diferentes entre sí. Estas técnicas se pueden implementar de forma independiente o conjunta y son utilizadas en herramientas de diagnóstico, operativa y de seguimiento. 
+    
     p.mb-4 Vea las diferentes herramientas y técnicas que se implementan en los sistemas productivos. Se invita a revisar y comprender su uso y aplicabilidad en las empresas:
 
     .d-flex.flex-wrap.mb-5
@@ -158,15 +159,74 @@
             img(src='@/assets/curso/tema1/fig4.svg', class='img-fluid')
     separador 
 
-    #t_1_5.titulo-segundo.color-acento-contenido.mb-4
-      h2 1.5.	Principios del sistema Lean
+    .bg_grad-06
+      #t_1_5.titulo-segundo.color-acento-contenido.mb-4
+        h2 1.5.	Principios del sistema Lean
 
-    p.mb-4 El Lean manufacturing se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema Lean manufacturing y su importancia en la filosofía de las empresas se describe a continuación: 
+      p.mb-4 El Lean manufacturing se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema Lean manufacturing y su importancia en la filosofía de las empresas se describe a continuación: 
+      
+      .row
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+          .col-md-11.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2.text-center 1. Generar valor
+                  p.text-center el valor está en lograr resolver o satisfacer la necesidad del cliente y que esté dispuesto a pagar por el producto o servicio entregado, eliminando todas esas actividades o procesos que no aportan valor y que se consideran como mudas o desperdicios.  
+
+          .col-md-11.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2.text-center 2. Entender la cadena de valor
+                  p.text-center se debe tener claridad de las actividades que generan valor, con el fin de ofrecer al cliente lo que pide. El objetivo es identificar los cuellos de botella que ocasionan desperdicios. 
+
+          .col-md-11.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/8.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2.text-center 3. Flujo de trabajo continuo
+                  p.text-center se debe evitar los cuellos de botella y las interrupciones,  esto se logra si se divide en grupos pequeños de trabajo.  
+
+          .col-md-11.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/9.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2.text-center 4. Creación sistema de trabajo específico
+                  p.text-center se busca optimizar los procesos y recursos de los equipos de trabajo, haciéndolos mucho más rápido y con menos esfuerzo.
+
+          .col-md-11.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop')
+              .tarjeta.color-primario
+                .p-4
+                  h2.text-center 5. Mejora continua
+                  p.text-center se debe comprometer y asegurarse de que los empleados participen en la mejora continua de los procesos de la empresa.
+
+      p.mb-4 Como complemento se invita a revisar el siguiente video que permitirá conceptualizar los principios del sistema Lean en la empresa:
+    
+      .row  
+        .col-12.col-md-12
+          figure
+            .video
+              iframe(width="942" height="530" src="https://www.youtube.com/embed/nfJPSfcl_tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    separador
 
     #t_1_6.titulo-segundo.color-acento-contenido.mb-4
       h2 1.6.	Pensamiento Lean
 
-     
+    p.mb-4 Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento Lean que involucra el mejoramiento continuo de los procesos productivos.
+
+    .row.justify-content-center.align-items-center.mt-5.mb-4 
+        .col-lg-12(data-aos="fade-down")
+          .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
+            .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.jpg')})`}")
+            .bloque-texto-g__texto.p-4
+              p(data-aos="fade-down").mb-0 El reto del pensamiento Lean implica mejorar la capacidad para generar economías de crecimiento donde los costos asociados a la cadena de producción disminuyan en la medida que aumente el número de productos que se fabrican en un tiempo determinado, esto debe reflejarse en los costos aumentando los rendimientos y creando unas competencias empresariales. 
     
   
 </template>

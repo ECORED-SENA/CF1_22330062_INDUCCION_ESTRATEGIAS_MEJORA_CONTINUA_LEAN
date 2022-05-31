@@ -152,3 +152,34 @@
 .cajon-comillas-color.bloque-texto-b.color-primario:before
   background-color: #C8D1DD !important
   height: 60px
+
+.bg_grad-06
+  position: relative
+  .row, .titulo-segundo, p, SlyderF,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -8rem
+    top: -50px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/fondo5.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/tema1/fondo5.jpg")
+      background-repeat: no-repeat
+
+.tarjeta.color-primario 
+  background-color: #93B0D0
+
+.tarjeta.color-primario * 
+  color: black
