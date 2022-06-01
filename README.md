@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/CF1_22330062_INDUCCION_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/](https://ecored-sena.github.io/CF1_22330062_INDUCCION_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/)
+[https://ecored-sena.github.io/CF1_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/](https://ecored-sena.github.io/CF1_ESTRATEGIAS_MEJORA_CONTINUA_LEAN/)
 
 #
 
