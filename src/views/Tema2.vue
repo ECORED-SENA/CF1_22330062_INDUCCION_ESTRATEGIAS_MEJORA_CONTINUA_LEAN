@@ -205,17 +205,17 @@
                 ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle
-                    span Variables críticas primarias: se debe realizar un control oportuno de las variables que generan impacto en cada punto del proceso
+                    span <b>Variables críticas primarias:</b> se debe realizar un control oportuno de las variables que generan impacto en cada punto del proceso
                   li
                     i.fas.fa-circle
-                    span Variables críticas secundarias: analizar la relación de las variables identificadas en las zonas de control, para evitar que algunos criterios queden identificados como variables críticas primarias.
+                    span <b>Variables críticas secundarias:</b> analizar la relación de las variables identificadas en las zonas de control, para evitar que algunos criterios queden identificados como variables críticas primarias.
                   li
                     i.fas.fa-circle
-                    span Variable crítica del proceso: lograr estabilidad en las variables del producto, controlando e inspeccionando el proceso en cada punto. 
+                    span <b>Variable crítica del proceso:</b> lograr estabilidad en las variables del producto, controlando e inspeccionando el proceso en cada punto. 
 
                   li
                     i.fas.fa-circle
-                    span Variable crítica de producto: estas variables solo se pueden inspeccionar con criterios de aceptación o rechazo, no es un defecto, es la condición o parte del producto en la que puede haber variabilidad en su condición estética o funcional.
+                    span <b>Variable crítica de producto:</b> estas variables solo se pueden inspeccionar con criterios de aceptación o rechazo, no es un defecto, es la condición o parte del producto en la que puede haber variabilidad en su condición estética o funcional.
                   
         .col-md-6.col-12.mb-4    
           .tarjeta.bgr3.p-4.p-md-4
@@ -224,13 +224,13 @@
                 ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle
-                    span Criterio de control: se refiere a la norma o especificación técnica que se debe cumplir.
+                    span <b>Criterio de control:</b> se refiere a la norma o especificación técnica que se debe cumplir.
                   li
                     i.fas.fa-circle
-                    span Tipo de control: se refiere a la forma o medio que se utilizará para el control, por ejemplo, gráficos de precontrol, seguimiento con registro puntual en libros, entre otros. 
+                    span <b>Tipo de control:</b> se refiere a la forma o medio que se utilizará para el control, por ejemplo, gráficos de precontrol, seguimiento con registro puntual en libros, entre otros. 
                   li
                     i.fas.fa-circle
-                    span rado de control: se refiere a la exigencia y rigurosidad impuesta en el control, por ejemplo, medir los criterios de intervalo de exigencia, entre otros.
+                    span <b>Grado de control:</b> se refiere a la exigencia y rigurosidad impuesta en el control, por ejemplo, medir los criterios de intervalo de exigencia, entre otros.
               .col-md-2.col-7
                 figure.f
                   img(src='@/assets/curso/tema2/vec4.svg', class='img-fluid')
