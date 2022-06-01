@@ -188,7 +188,7 @@
                 img(src='@/assets/curso/tema2/13.png', class='img-fluid')
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.      
 
-    p.mb-4.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
+    p.mb-2.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
     separador 
 
     #t_2_2.titulo-segundo.color-acento-contenido.mb-4
