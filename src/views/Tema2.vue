@@ -191,14 +191,49 @@
     p.mb-2.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
     separador 
 
-    #t_2_2.titulo-segundo.color-acento-contenido.mb-4
-      h2 2.2.	Variables y restricciones inherentes al proceso productivo
+    .bg_grad-07
+      #t_2_2.titulo-segundo.color-acento-contenido.mb-4
+        h2 2.2.	Variables y restricciones inherentes al proceso productivo
 
-
-          
+      p.mb-4 Conforme lo señala Quintero (2016) las variables críticas del proceso poseen interacción directa con las variables críticas del producto, por lo cual cobra trascendencia el categorizar su grado de criticidad con el propósito de conceptualizar el tipo y nivel de control de todas estas variables, así: 
             
-         
-    
+      .row.mb-5 
+        .col-md-6.col-12.mb-4
+          .tarjeta.bgr3.p-4.p-md-4
+            .row.justify-content-around.align-items-center
+              .col-12.col-sm-12.col-md-12.mb-4.mb-md-0
+                ul.lista-ul.lista-ul.lista-ul--color
+                  li
+                    i.fas.fa-circle
+                    span Variables críticas primarias: se debe realizar un control oportuno de las variables que generan impacto en cada punto del proceso
+                  li
+                    i.fas.fa-circle
+                    span Variables críticas secundarias: analizar la relación de las variables identificadas en las zonas de control, para evitar que algunos criterios queden identificados como variables críticas primarias.
+                  li
+                    i.fas.fa-circle
+                    span Variable crítica del proceso: lograr estabilidad en las variables del producto, controlando e inspeccionando el proceso en cada punto. 
+
+                  li
+                    i.fas.fa-circle
+                    span Variable crítica de producto: estas variables solo se pueden inspeccionar con criterios de aceptación o rechazo, no es un defecto, es la condición o parte del producto en la que puede haber variabilidad en su condición estética o funcional.
+                  
+        .col-md-6.col-12.mb-4    
+          .tarjeta.bgr3.p-4.p-md-4
+            .row.justify-content-around.align-items-center
+              .col-12.col-sm-12.col-md-12.mb-4.mb-md-0
+                ul.lista-ul.lista-ul.lista-ul--color
+                  li
+                    i.fas.fa-circle
+                    span Criterio de control: se refiere a la norma o especificación técnica que se debe cumplir.
+                  li
+                    i.fas.fa-circle
+                    span Tipo de control: se refiere a la forma o medio que se utilizará para el control, por ejemplo, gráficos de precontrol, seguimiento con registro puntual en libros, entre otros. 
+                  li
+                    i.fas.fa-circle
+                    span rado de control: se refiere a la exigencia y rigurosidad impuesta en el control, por ejemplo, medir los criterios de intervalo de exigencia, entre otros.
+              .col-md-2.col-7
+                figure.f
+                  img(src='@/assets/curso/tema2/vec4.svg', class='img-fluid')
 
 </template>
 
