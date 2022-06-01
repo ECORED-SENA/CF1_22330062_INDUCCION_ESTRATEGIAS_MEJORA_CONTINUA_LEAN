@@ -133,6 +133,64 @@
       h5 Figura 6
       span Simbología para la diagramación del flujo de procesos
     
+    .tabla-editada2.mb-2
+      table
+        thead
+          tr.text-center
+            th.text-center.p-4 SÍMBOLO
+            th.text-center.p-4 SIGNIFICADO
+            th.text-center.p-4 SIGNIFICADO
+            th.text-center.p-4 SIGNIFICADO
+        tbody
+          tr(style='background-color: #F6F6F6')
+            td.text-center.p-4 
+              figure
+                img(src='@/assets/curso/tema2/4.png', class='img-fluid')
+            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center.p-3 
+              figure
+                img(src='@/assets/curso/tema2/9.png', class='img-fluid')
+            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+          tr
+            td.text-center.p-4 
+              figure
+                img(src='@/assets/curso/tema2/5.png', class='img-fluid')
+            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center.p-2 
+              figure
+                img(src='@/assets/curso/tema2/10.png', class='img-fluid')
+            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+          tr(style='background-color: #F6F6F6')
+            td.text-center.p-4
+              figure
+                img(src='@/assets/curso/tema2/6.png', class='img-fluid')
+            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center.p-2
+              figure
+                img(src='@/assets/curso/tema2/11.png', class='img-fluid')
+            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+          tr
+            td.text-center.p-4 
+              figure
+                img(src='@/assets/curso/tema2/7.png', class='img-fluid')
+            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center.p-2
+              figure
+                img(src='@/assets/curso/tema2/12.png', class='img-fluid')
+            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+          tr(style='background-color: #F6F6F6')
+            td.text-center.p-4
+              figure
+                img(src='@/assets/curso/tema2/8.png', class='img-fluid')
+            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center.p-2
+              figure
+                img(src='@/assets/curso/tema2/13.png', class='img-fluid')
+            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.      
+
+    p.mb-4.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
+    separador 
+
     #t_2_2.titulo-segundo.color-acento-contenido.mb-4
       h2 2.2.	Variables y restricciones inherentes al proceso productivo
 
