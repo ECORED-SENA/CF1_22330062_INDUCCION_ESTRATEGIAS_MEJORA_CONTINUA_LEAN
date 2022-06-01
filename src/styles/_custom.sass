@@ -178,8 +178,47 @@
       background-image: url("../assets/curso/tema1/fondo5.jpg")
       background-repeat: no-repeat
 
+//Tema
 .tarjeta.color-primario 
   background-color: #93B0D0
 
 .tarjeta.color-primario * 
   color: black
+
+
+.tarjeta-numerada 
+  margin-left: 0px
+  background-color: #B7D2FA
+  border-radius: 20px
+  padding-top: 50px!important
+.camb_color
+  .tarjeta-numerada  
+    background-color: #DEE4F0!important
+  
+.tarjeta-numerada__contenido
+  display: none
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.tarjeta-numerada:hover .tarjeta-numerada__numero
+  left: 50%
+  top: -6%  
+.tarjeta-numerada:hover .tarjeta-numerada__contenido
+  display: inherit 
+.tarjeta-numerada 
+  border: 0
+.tarjeta-numerada:hover
+  background-color: #DEE4F0 
+
+.tarjeta-avatar > img 
+  position: absolute
+  left: 50%
+  top: 5px
+  transform: translateX(-50%);
+  display: block
+  width: 100px
+  margin: 0 auto
+  z-index: 999
+
+ 
+

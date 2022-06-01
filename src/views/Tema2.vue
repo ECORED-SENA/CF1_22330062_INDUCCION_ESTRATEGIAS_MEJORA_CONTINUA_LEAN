@@ -31,13 +31,62 @@
       .col-md-4(data-aos="zoom-in")
         img.p-2(src='@/assets/curso/tema2/vec1.svg' alt='AvatarTop')
 
-    .row.mb-4.align-items-center
+    .row.mb-5.align-items-center
       .col-md-6
         p.mb-4 Los sistemas de producción generalmente se catalogan conforme con la disposición de las maquinarias y áreas dentro de las fábricas manufactureras o por las particularidades generales del propio sistema. La decisión sobre el sistema de producción es dependiente de diversos componentes, entre ellos la diversidad de productos, los tipos de pedidos, volumen de ventas, incertidumbre en la demanda y la frecuencia en los pedidos, según Tejeda (2011).
       .col-md-6
         figure
           img(src='@/assets/curso/tema2/1.png', class='img-fluid')
+    br
+    .row.mb-5.justify-content-center
+      .col-lg-10.mb-5
+        .row.justify-content-center(@mouseover="mostrarIndicador = false")
+          .col-md-5.col-xl.mb-5.mb-xl-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/avatar1.svg' alt='AvatarTop')
+              .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
+                .indicador--click(v-if="mostrarIndicador")
+                h4 TQM (Total quality management)
+                .tarjeta-numerada__contenido
+                  p.mb-0 calidad total mediante la eficiencia y eficacia de la producción.
 
+          .col-md-5.col-xl.mb-5.mb-xl-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/avatar2.svg' alt='AvatarTop')
+              .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
+                .indicador--click(v-if="mostrarIndicador")
+                h4 JIT (Just in time o justo a tiempo)
+                .tarjeta-numerada__contenido
+                  p.mb-0 respetar este sistema será producir solo a demanda.
+
+          .col-md-5.col-xl.mb-5.mb-xl-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/avatar3.svg' alt='AvatarTop')
+              .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
+                .indicador--click(v-if="mostrarIndicador")
+                h4 Kaizen
+                .tarjeta-numerada__contenido
+                  p.mb-0 el sistema que asegura la mejora continua.
+      
+      .col-lg-8.mb-4
+        .row.justify-content-center(@mouseover="mostrarIndicador = false")
+          .col-md-5.col-xl.mb-5.mb-xl-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/avatar4.svg' alt='AvatarTop')
+              .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
+                .indicador--click(v-if="mostrarIndicador")
+                h4 TOC (Teoría de las restricciones o de las limitaciones)
+                .tarjeta-numerada__contenido
+                  p.mb-0 se basa en encontrar el cuello de botella para marcar el ritmo productivo de la cadena.
+
+          .col-md-5.col-xl.mb-5.mb-xl-0
+            .tarjeta-avatar
+              img(src='@/assets/curso/tema2/avatar5.svg' alt='AvatarTop')
+              .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
+                .indicador--click(v-if="mostrarIndicador")
+                h4 JIT (Just in time o justo a tiempo)
+                .tarjeta-numerada__contenido
+                  p.mb-0 respetar este sistema será producir solo a demanda.
 
 
     #t_2_2.titulo-segundo.color-acento-contenido.mb-4
