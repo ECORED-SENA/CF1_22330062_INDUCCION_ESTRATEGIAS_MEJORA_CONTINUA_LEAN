@@ -10,7 +10,7 @@
       h1 Introducción
     
     .bg_grad-01
-      p.mb-3.mb-md-5 Se da la bienvenida al estudio del componente formativo “Manufactura esbelta y mudas del proceso”. Para comenzar, se invita a explorar el recurso que se muestra a continuación: 
+      p.mb-3.mb-md-5 Se da la bienvenida al estudio del componente formativo <b>“Manufactura esbelta y mudas del proceso”</b>. Para comenzar, se invita a explorar el recurso que se muestra a continuación: 
 
     
       .row

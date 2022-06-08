@@ -47,7 +47,8 @@
       .row.justify-content-center
         .col-md-8 
           figure.mb-4
-            img(src='@/assets/curso/tema1/fig1.svg', class='img-fluid')
+            img(src='@/assets/curso/tema1/fig1.png', class='img-fluid')
+        p.mb-4.text-center Nota. Información tomada del Fondo Social Europeo (2022). 
     separador     
         
     .bg_grad-03        
@@ -63,7 +64,9 @@
 
     p.mb-5 Sabiendo lo anterior, a continuación, se invita a revisar los principales autores que dieron origen al sistema de producción Lean manufacturing, sus aportes en este concepto y su utilidad en el sector industrial: 
 
-    LineaTiempoB.color-acento-contenido.mb-5(:datos="datosLineaTiempoB")
+    .row.justify-content-center.align-items-center 
+      .col-md-10
+        LineaTiempoB.color-acento-contenido.mb-5.p-5(:datos="datosLineaTiempoB")(style='background-color: #F6F6F6')
     separador 
 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-4
@@ -121,14 +124,14 @@
       .col-lg-5.order-1.order-lg-2.px-0.px-lg-4.mx-auto
         img(src="@/assets/curso/tema1/img6.jpg" style="max-width: 505px").mx-auto.mb-4.mb-lg-0
 
-    .bg_grad-05.mb-2
-      .row.align-items-center
+    .bg_grad-05
+      .row.align-items-center.mb-4
         .col-md-6
           figure.mb-2.py-5
             img(src='@/assets/curso/tema1/2.png', class='img-fluid' style="width: 515px")
         .col-md-6
-          p.mb-2 Por otro lado, hay que resaltar la técnica con enfoque kaizen, término japonés que significa “cambio para mejorar”. Se basa en dos pilares fundamentales que son los equipos de trabajo y la mejora de los procesos productivos, para lograr la aplicación de esta técnica es importante contar con la integración de diferentes áreas de la empresa con sus colaboradores o talento humano disponible.
-          .bloque-texto-b.color-primario.p-2.pb-xl-5.cajon-comillas-color.mx-auto.mb-2(style="color: #D2E1F1")
+          p.mb-4 Por otro lado, hay que resaltar la técnica con enfoque kaizen, término japonés que significa “cambio para mejorar”. Se basa en dos pilares fundamentales que son los equipos de trabajo y la mejora de los procesos productivos, para lograr la aplicación de esta técnica es importante contar con la integración de diferentes áreas de la empresa con sus colaboradores o talento humano disponible.
+          .bloque-texto-b.color-primario.p-2.pb-xl-5.cajon-comillas-color.mx-auto.mb-4(style="color: #D2E1F1")
             .bloque-texto-b__texto
               i.fas.fa-quote-left(style="color: #35B5D5")
               h4.mb-0 “Trabajo en equipo: los resultados positivos de la aplicación, las distintas herramientas y técnicas que da Lean no son alcanzables si no se cuenta con un factor fundamental: el trabajo en grupo.”.
@@ -139,10 +142,16 @@
           h5 Figura 2
           span Equipo de trabajo
 
-      .row.justify-content-center
-        .col-md-12
-          figure.mb-4
+      .row.justify-content-center.mb-4
+        .col-md-7.mb-4
+          figure
             img(src='@/assets/curso/tema1/fig3.svg', class='img-fluid')
+        .col-md-5
+          .tarjeta.bgr4.p-4.p-md-4.mb-5
+            .row.justify-content-around.align-items-center
+              .col-12.col-sm-12.col-md-12.mb-4.mb-md-0
+                p El modelo de fabricación esbelta, conocido como Lean manufacturing permite a las empresas implementar modelos de organización y producción para que sean más competitivas en los mercados globales.<br><br/>Por esto, la manufactura esbelta es una filosofía de trabajo donde el personal de una empresa se involucra y define la forma de optimización y mejora de un sistema de producción, en el cual identifican y eliminan todo tipo de “desperdicios”, en especial esos procesos u ocupaciones que utilizan más recursos de los necesarios.
+
     separador 
 
     #t_1_4.titulo-segundo.color-acento-contenido.mb-4
@@ -172,7 +181,7 @@
               img(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  h2.text-center 1. Generar valor
+                  h4.text-center 1. Generar valor
                   p.text-center el valor está en lograr resolver o satisfacer la necesidad del cliente y que esté dispuesto a pagar por el producto o servicio entregado, eliminando todas esas actividades o procesos que no aportan valor y que se consideran como mudas o desperdicios.  
 
           .col-md-11.col-lg.mb-5.mb-lg-0
@@ -180,7 +189,7 @@
               img(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  h2.text-center 2. Entender la cadena de valor
+                  h4.text-center 2. Entender la cadena de valor
                   p.text-center se debe tener claridad de las actividades que generan valor, con el fin de ofrecer al cliente lo que pide. El objetivo es identificar los cuellos de botella que ocasionan desperdicios. 
 
           .col-md-11.col-lg.mb-5.mb-lg-0
@@ -188,7 +197,7 @@
               img(src='@/assets/curso/tema1/8.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  h2.text-center 3. Flujo de trabajo continuo
+                  h4.text-center 3. Flujo de trabajo continuo
                   p.text-center se debe evitar los cuellos de botella y las interrupciones,  esto se logra si se divide en grupos pequeños de trabajo.  
 
           .col-md-11.col-lg.mb-5.mb-lg-0
@@ -196,7 +205,7 @@
               img(src='@/assets/curso/tema1/9.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  h2.text-center 4. Creación sistema de trabajo específico
+                  h4.text-center 4. Creación sistema de trabajo específico
                   p.text-center se busca optimizar los procesos y recursos de los equipos de trabajo, haciéndolos mucho más rápido y con menos esfuerzo.
 
           .col-md-11.col-lg.mb-5.mb-lg-0
@@ -204,7 +213,7 @@
               img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop')
               .tarjeta.color-primario
                 .p-4
-                  h2.text-center 5. Mejora continua
+                  h4.text-center 5. Mejora continua
                   p.text-center se debe comprometer y asegurarse de que los empleados participen en la mejora continua de los procesos de la empresa.
 
       p.mb-4 Como complemento se invita a revisar el siguiente video que permitirá conceptualizar los principios del sistema Lean en la empresa:
@@ -240,13 +249,13 @@ export default {
       {
         titulo: '1878',
         texto:
-          '<b>Frederick Winslow Taylor</b><br><br/>Pionero en el desarrollo del concepto de manufactura esbelta, inició las primeras bases de la organización de la producción mediante la aplicación del método científico a los procesos, tiempos, equipos, personas y movimientos.',
+          '<b>Frederick Winslow Taylor</b><br><br/> Pionero en el desarrollo del concepto de manufactura esbelta, inició las primeras bases de la organización de la producción mediante la aplicación del método científico a los procesos, tiempos, equipos, personas y movimientos.',
         icono: require('@/assets/curso/tema1/1.svg'),
       },
       {
         titulo: '1890',
         texto:
-          '<b>Sakichi Toyoda</b><br><br/>Permitió separar el hombre de la máquina.<br><br/>Un solo operario podría supervisar varias máquinas.<br><br/>Mejora en la productividad.',
+          '<b>Sakichi Toyoda</b><br><br/>Permitió separar el hombre de la máquina.<br>Un solo operario podría supervisar varias máquinas.<br>Mejora en la productividad.',
         icono: require('@/assets/curso/tema1/2.svg'),
       },
       {
@@ -258,13 +267,13 @@ export default {
       {
         titulo: '1940',
         texto:
-          '<b>Taiicho Ohno</b><br><br/>Permitió separar el hombre de la máquina.<br><br/>Un solo operario podría supervisar varias máquinas.<br><br/>Mejora en la productividad.',
+          '<b>Taiicho Ohno</b><br><br/>Permitió separar el hombre de la máquina.<br>Un solo operario podría supervisar varias máquinas.<br>Mejora en la productividad.',
         icono: require('@/assets/curso/tema1/4.svg'),
       },
       {
         titulo: '1950',
         texto:
-          '<b>Henry Ford</b><br><br/>Estudia la teoría científica de Taylor y el estudio de tiempos y movimientos de los Gilbreth.<br><br/>Transforma las operaciones productivas en flujos continuos para entregar al cliente lo que requería, disminuyendo los tiempos de preparación.<br></br>Al amparo del Jit se fueron creando otras técnicas como Kanban, Jidoka, Poka –Joke.',
+          '<b>Henry Ford</b><br><br/>Estudia la teoría científica de Taylor y el estudio de tiempos y movimientos de los Gilbreth.<br>Transforma las operaciones productivas en flujos continuos para entregar al cliente lo que requería, disminuyendo los tiempos de preparación.<br>Al amparo del Jit se fueron creando otras técnicas como Kanban, Jidoka, Poka –Joke.',
         icono: require('@/assets/curso/tema1/5.svg'),
       },
     ],
