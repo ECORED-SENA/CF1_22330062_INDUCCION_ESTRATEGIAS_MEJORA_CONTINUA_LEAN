@@ -102,7 +102,7 @@
     
     p.mb-4(data-aos="fade-down") Vea las diferentes herramientas y técnicas que se implementan en los sistemas productivos. Se invita a revisar y comprender su uso y aplicabilidad en las empresas:
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-down")
       .col-lg-7.order-2.order-lg-1
         LineaTiempoD.linea-tiempo-1
           .row(numero="1" titulo="Herramientas de diagnóstico") 
@@ -131,10 +131,10 @@
 
     .bg_grad-05
       .row.align-items-center.mb-4
-        .col-md-6
+        .col-md-6(data-aos="fade-right")
           figure.mb-2.py-5
             img(src='@/assets/curso/tema1/2.png', class='img-fluid' style="width: 515px")
-        .col-md-6
+        .col-md-6(data-aos="fade-left")
           p.mb-4 Por otro lado, hay que resaltar la técnica con enfoque kaizen, término japonés que significa “cambio para mejorar”. Se basa en dos pilares fundamentales que son los equipos de trabajo y la mejora de los procesos productivos, para lograr la aplicación de esta técnica es importante contar con la integración de diferentes áreas de la empresa con sus colaboradores o talento humano disponible.
           .bloque-texto-b.color-primario.p-2.pb-xl-5.cajon-comillas-color.mx-auto.mb-4(style="color: #D2E1F1")
             .bloque-texto-b__texto
@@ -147,7 +147,7 @@
           h5 Figura 2
           span Equipo de trabajo
 
-      .row.justify-content-center.mb-4
+      .row.justify-content-center.mb-4(data-aos="fade-down")
         .col-md-7.mb-4
           figure
             img(src='@/assets/curso/tema1/fig3.svg', class='img-fluid')
@@ -159,31 +159,31 @@
 
     separador 
 
-    #t_1_4.titulo-segundo.color-acento-contenido.mb-4
+    #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 1.4.	Beneficios de la implantación Lean 
 
-    p.mb-4 En este momento un gran número de empresas está descubriendo los beneficios que esta metodología de Lean Manufacturing brinda al enfocarse en generar valor mediante la atracción del cliente, en la mejora del producto y de los procesos productivos. Por esto se centra en la eliminación de residuos en etapas de transporte, inventario, movimientos, espera, sobreproducción y deterioro. El impacto que estas etapas ocasionan está direccionada a los costos de producción y todas las actividades que no aportan valor añadido al producto final.<br><br/>¿Sabe cuáles son los beneficios que obtienen las empresas que implementan el Lean manufacturing? Pues son los siguientes:
+    p.mb-4(data-aos="fade-right") En este momento un gran número de empresas está descubriendo los beneficios que esta metodología de Lean Manufacturing brinda al enfocarse en generar valor mediante la atracción del cliente, en la mejora del producto y de los procesos productivos. Por esto se centra en la eliminación de residuos en etapas de transporte, inventario, movimientos, espera, sobreproducción y deterioro. El impacto que estas etapas ocasionan está direccionada a los costos de producción y todas las actividades que no aportan valor añadido al producto final.<br><br/>¿Sabe cuáles son los beneficios que obtienen las empresas que implementan el Lean manufacturing? Pues son los siguientes:
 
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 3
           span Beneficios de la implementación Lean en las empresas
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
         .col-md-12
           figure.mb-4
             img(src='@/assets/curso/tema1/fig4.svg', class='img-fluid')
     separador 
 
     .bg_grad-06
-      #t_1_5.titulo-segundo.color-acento-contenido.mb-4
+      #t_1_5.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
         h2 1.5.	Principios del sistema Lean
-      .row 
+      .row(data-aos="fade-right")
         p.mb-4 El Lean manufacturing se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema Lean manufacturing y su importancia en la filosofía de las empresas se describe a continuación: 
       
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-md-4
           h5 5 Principios del sistema Lean manufacturing  
 
-      .row
+      .row(data-aos="fade-down")
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
@@ -225,21 +225,22 @@
                   h4.text-center 5. Mejora continua
                   p.text-center se debe comprometer y asegurarse de que los empleados participen en la mejora continua de los procesos de la empresa.
 
-      p.mb-4 Como complemento se invita a revisar el siguiente video que permitirá conceptualizar los principios del sistema Lean en la empresa:
+      .row
+        p.mb-4 Como complemento se invita a revisar el siguiente video que permitirá conceptualizar los principios del sistema Lean en la empresa:
     
-      .row  
+      .row(data-aos="fade-right")
         .col-12.col-md-12
           figure
             .video
               iframe(width="942" height="530" src="https://www.youtube.com/embed/nfJPSfcl_tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
 
-    #t_1_6.titulo-segundo.color-acento-contenido.mb-4
+    #t_1_6.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 1.6.	Pensamiento Lean
 
-    p.mb-4 Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento Lean que involucra el mejoramiento continuo de los procesos productivos.
+    p.mb-4(data-aos="fade-right") Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento Lean que involucra el mejoramiento continuo de los procesos productivos.
 
-    .row.justify-content-center.align-items-center.mt-5.mb-4 
+    .row.justify-content-center.align-items-center.mt-5.mb-4(data-aos="fade-right")
         .col-lg-12(data-aos="fade-down")
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.jpg')})`}")

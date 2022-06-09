@@ -7,19 +7,19 @@
         span 2
       h1 Sistemas de producción 
 
-    figure.mb-4
+    figure.mb-4(data-aos="fade-down")
       img(src='@/assets/curso/tema2/img1.jpg', class='img-fluid')
 
-    .tarjeta.bgr.p-4.p-md-4
+    .tarjeta.bgr.p-4.p-md-4(data-aos="fade-down")
       .row.justify-content-around.align-items-center
         .col-12.col-sm-12.col-md-12.mb-4.mb-md-0
           p Son métodos en los que a partir de la selección de la materia prima y de una variedad de actividades y recursos como la compra de maquinaria, planeación de procesos, atención al cliente, ventas y control de manufactura se articulan para producir un producto. 
     separador 
 
-    #t_2_1.titulo-segundo.color-acento-contenido.mb-4
+    #t_2_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 2.1.	Conceptualización del sistema producción Lean manufacturing
 
-    p.mb-5 Los sistemas de producción Lean buscan la mejora de la competitividad desde el método de identificación y supresión (o reducción) de los desperdicios de los materiales y de información, conforme a LeanBox (s.f.) son apoyados en el sistema de producción Toyota, perfeccionado por esta compañía a partir de los años 60 del Siglo XX y que actualmente se demostró ser el más eficaz para la fabricación de series cortas y variadas, según la fuente citada.
+    p.mb-5(data-aos="fade-right") Los sistemas de producción Lean buscan la mejora de la competitividad desde el método de identificación y supresión (o reducción) de los desperdicios de los materiales y de información, conforme a LeanBox (s.f.) son apoyados en el sistema de producción Toyota, perfeccionado por esta compañía a partir de los años 60 del Siglo XX y que actualmente se demostró ser el más eficaz para la fabricación de series cortas y variadas, según la fuente citada.
     
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-lg-12(data-aos="fade-down")
@@ -36,14 +36,14 @@
         .col-md-4(data-aos="zoom-in")
           img.p-2(src='@/assets/curso/tema2/vec1.svg' alt='AvatarTop')
 
-      .row.mb-5.align-items-center
+      .row.mb-5.align-items-center(data-aos="fade-right")
         .col-md-6
           p.mb-4 Los sistemas de producción generalmente se catalogan conforme con la disposición de las maquinarias y áreas dentro de las fábricas manufactureras o por las particularidades generales del propio sistema. La decisión sobre el sistema de producción es dependiente de diversos componentes, entre ellos la diversidad de productos, los tipos de pedidos, volumen de ventas, incertidumbre en la demanda y la frecuencia en los pedidos, según Tejeda (2011).
         .col-md-6
           figure
             img(src='@/assets/curso/tema2/1.png', class='img-fluid')
       br
-      .titulo-sexto.color-acento-contenido.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 4
           span Sistemas de producción
       .row.mb-5.justify-content-center
@@ -96,11 +96,11 @@
                   .tarjeta-numerada__contenido
                     p.mb-0 respetar este sistema será producir solo a demanda.
 
-      .row.mb-4 
+      .row.mb-4(data-aos="fade-left")
         .col-md-5(data-aos="zoom-in")
           img.p-2(src='@/assets/curso/tema2/vec2.svg' alt='AvatarTop')
 
-      .row.mb-5
+      .row.mb-5(data-aos="fade-left")
         .col-md-6
           figure
             img(src='@/assets/curso/tema2/2.png', class='img-fluid')
@@ -110,20 +110,20 @@
             .row.justify-content-around.align-items-center
               .col-12.col-sm-12.col-md-12.mb-3.mb-md-0
                 p Los sistemas productivos pueden clasificarse según la estructura de los procesos y dependen de la disponibilidad de la maquinaria involucrada en la producción. También de otros factores como variedad de productos, tipos de pedidos, volumen de ventas y frecuencia en la toma de pedidos; de acuerdo con esto se presenta la clasificación del sistema de producción:
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
         h5 Figura 5
         span Clasificación del sistema de producción
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-md-12
         figure
           img(src='@/assets/curso/tema2/fig.svg')
-    p.mb-4.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
+    p.mb-4.text-center(data-aos="fade-right") Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
 
-    .row.mb-4 
-      .col-md-4(data-aos="zoom-in")
+    .row.mb-4(data-aos="zoom-in") 
+      .col-md-4
         img.p-2(src='@/assets/curso/tema2/vec3.svg' alt='AvatarTop')
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in")
       .col-md-6
         p Según Quiroga (2019) “el proceso productivo es el conjunto de tareas y procedimientos requeridos que realiza una empresa para efectuar la elaboración de bienes y servicios”, dicho de otro modo, es una serie de operaciones y procesos necesarios que se realizan de forma planificada y sucesiva para lograr la elaboración de productos. 
         .tarjeta.bgr2.p-2.p-md-3.mb-4
@@ -134,12 +134,12 @@
         figure
           img(src='@/assets/curso/tema2/3.png', class='img-fluid')
       
-    .titulo-sexto.color-acento-contenido.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in")
       h5 Figura 6
       span Simbología para la diagramación del flujo de procesos
     
-    .fraja.mb-0
-    .tabla-editada2.mb-2
+    .fraja.mb-0(data-aos="zoom-in")
+    .tabla-editada2.mb-2(data-aos="zoom-in")
       table
         thead
           tr.text-center
@@ -194,16 +194,16 @@
                 img(src='@/assets/curso/tema2/13.png', class='img-fluid' style="width: 130px")
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.      
 
-    p.mb-2.text-center Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
+    p.mb-2.text-center(data-aos="zoom-in") Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
     separador 
 
     .bg_grad-07
-      #t_2_2.titulo-segundo.color-acento-contenido.mb-4
+      #t_2_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
         h2 2.2.	Variables y restricciones inherentes al proceso productivo
 
-      p.mb-4 Conforme lo señala Quintero (2016) las variables críticas del proceso poseen interacción directa con las variables críticas del producto, por lo cual cobra trascendencia el categorizar su grado de criticidad con el propósito de conceptualizar el tipo y nivel de control de todas estas variables, así: 
+      p.mb-4(data-aos="fade-right") Conforme lo señala Quintero (2016) las variables críticas del proceso poseen interacción directa con las variables críticas del producto, por lo cual cobra trascendencia el categorizar su grado de criticidad con el propósito de conceptualizar el tipo y nivel de control de todas estas variables, así: 
             
-      .row.mb-5 
+      .row.mb-5(data-aos="zoom-in")
         .col-md-6.col-12.mb-4
           .tarjeta.bgr3.p-4.p-md-4
             .row.justify-content-around.align-items-center

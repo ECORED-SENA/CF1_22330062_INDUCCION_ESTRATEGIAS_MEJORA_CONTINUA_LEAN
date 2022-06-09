@@ -8,9 +8,9 @@
       h1 Conceptos de desperdicios (mudas) 
 
 
-    figure.mb-4
+    figure.mb-4(data-aos="zoom-in")
       img(src='@/assets/curso/tema3/1.jpg', class='img-fluid')
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-md-6.mb-4
         .tarjeta.bgr.p-4.p-md-4
           .row.justify-content-around.align-items-center
@@ -24,25 +24,25 @@
             i.fas.fa-quote-right.float-end(style="color: #35B5D5")
     separador 
 
-    #t_3_1.titulo-segundo.color-acento-contenido.mb-4
+    #t_3_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.1.	Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (Lean) 
 
-    p.mb-4 Según González Correa (2007), citado por Quiñones y Rojas (2020) este concepto de mudas es utilizado en el TPS (sistema de producción Toyota) que permite identificar los desperdicios que deben ser eliminados, estos son:   
+    p.mb-4(data-aos="fade-right") Según González Correa (2007), citado por Quiñones y Rojas (2020) este concepto de mudas es utilizado en el TPS (sistema de producción Toyota) que permite identificar los desperdicios que deben ser eliminados, estos son:   
 
-    .row.mb-4
+    .row.mb-4(data-aos="zoom-in")
       .col-12.col-md-12
         figure
           .video
             iframe(width="942" height="530" src="https://www.youtube.com/embed/oJRhtnimo6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador 
 
-    #t_3_2.titulo-segundo.color-acento-contenido.mb-4
+    #t_3_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.2.	Características de los desperdicios
     
-    p.mb-4 Se presentan en las diferentes actividades o procesos que desarrolla la empresa y estas se fundamentan en el concepto de “muda” que es una expresión japonesa que hace referencia a la torpeza, inercia, residuos y despilfarro en la cadena productiva.<br><br/>Partiendo de la definición de muda que se desarrolló inicialmente en el Lean manufacturing se presenta a continuación, los tipos de desperdicios con sus características y particularidades que se dan en los diferentes procesos productivos del sector industrial. 
+    p.mb-4(data-aos="fade-right") Se presentan en las diferentes actividades o procesos que desarrolla la empresa y estas se fundamentan en el concepto de “muda” que es una expresión japonesa que hace referencia a la torpeza, inercia, residuos y despilfarro en la cadena productiva.<br><br/>Partiendo de la definición de muda que se desarrolló inicialmente en el Lean manufacturing se presenta a continuación, los tipos de desperdicios con sus características y particularidades que se dan en los diferentes procesos productivos del sector industrial. 
 
-    .fraja2.mb-0
-    .tabla-editada3.mb-4
+    .fraja2.mb-0(data-aos="zoom-in")
+    .tabla-editada3.mb-4(data-aos="zoom-in")
       table
         thead
           tr.text-center
@@ -190,12 +190,12 @@
     separador 
 
 
-    #t_3_3.titulo-segundo.color-acento-contenido.mb-4
+    #t_3_3.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.3.	Causas posibles y acciones Lean
     
-    p.mb-4 Las posibles causas que generan desperdicios en el Lean manufacturing se identifican a continuación:
+    p.mb-4(data-aos="fade-right") Las posibles causas que generan desperdicios en el Lean manufacturing se identifican a continuación:
 
-    .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #AEDBEF")
+    .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #AEDBEF")(data-aos="zoom-in")
       ul.lista-ul.lista-ul.lista-ul--color2
         li
           i.fas.fa-check-circle
