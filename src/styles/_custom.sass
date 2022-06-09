@@ -173,7 +173,7 @@
 
 .bg_grad-06
   position: relative
-  .row, .titulo-segundo, p, SlyderF,
+  .row, .titulo-segundo
     position: relative
   &::before
     content: ''
@@ -197,6 +197,12 @@
       background-repeat: no-repeat
 
 //Tema2
+
+.tarjeta.color-primario.tema-1
+  height: 351px
+  @media screen and ( max-width: 992px )
+    height: auto
+
 .tarjeta.color-primario 
   background-color: #93B0D0
 
@@ -303,7 +309,7 @@
 
 .bg_grad-08
   position: relative
-  .row, .titulo-segundo, p, 
+  .row, .titulo-segundo, p, .titulo-sexto,
     position: relative
   &::before
     content: ''
@@ -357,7 +363,11 @@
     table 
       display: block
       overflow-x: auto
-    
+
+.imagen-superior img 
+  width: 310px
+  @media screen and (max-width: 992px) 
+    width: 250px
 
 //tema3
 
@@ -370,5 +380,5 @@
   border-bottom: 4px solid #2596B3
   margin-inline-end: 0px
 
-.lista-ul--color li > i:first-of-type 
+.lista-ul--color2 li > i:first-of-type 
   color: #184380

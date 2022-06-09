@@ -5,7 +5,7 @@ section.inicio
   //- Desarrollo de contenidos
   #contenidos.container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
     .titulo__template--a.mb-4
-      h3 Desarrollo<br>de contenidos
+      h3 Desarrollo de contenidos
 
     .tarjeta--blanca.p-3.p-sm-4
       .desarrollo-contenidos

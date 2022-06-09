@@ -9,11 +9,11 @@
           i.fas.fa-info.color-white
       h1 Introducción
     
-    .bg_grad-01
+    .bg_grad-01(data-aos="fade-down")
       p.mb-3.mb-md-5 Se da la bienvenida al estudio del componente formativo <b>“Manufactura esbelta y mudas del proceso”</b>. Para comenzar, se invita a explorar el recurso que se muestra a continuación: 
 
     
-      .row
+      .row(data-aos="fade-down")
         .col-12.col-md-12
           figure
             .video

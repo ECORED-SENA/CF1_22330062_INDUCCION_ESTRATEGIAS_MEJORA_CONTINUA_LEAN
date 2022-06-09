@@ -20,10 +20,10 @@
       h2 2.1.	Conceptualización del sistema producción Lean manufacturing
 
     p.mb-5 Los sistemas de producción Lean buscan la mejora de la competitividad desde el método de identificación y supresión (o reducción) de los desperdicios de los materiales y de información, conforme a LeanBox (s.f.) son apoyados en el sistema de producción Toyota, perfeccionado por esta compañía a partir de los años 60 del Siglo XX y que actualmente se demostró ser el más eficaz para la fabricación de series cortas y variadas, según la fuente citada.
-    br
+    
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-lg-12(data-aos="fade-down")
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
+        .bloque-texto-g.tema-2.color-acento-contenido.p-3.p-sm-4.p-md-5.position-relative
           .bloque-texto-g__img(
             :style="{'background-image':`url(${require('@/assets/curso/tema2/img2.jpg')})`}"
           )
@@ -47,9 +47,9 @@
           h5 Figura 4
           span Sistemas de producción
       .row.mb-5.justify-content-center
-        .col-lg-10.mb-5
+        .col-lg-8.mb-5
           .row.justify-content-center(@mouseover="mostrarIndicador = false")
-            .col-md-5.col-xl.mb-5.mb-xl-0
+            .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/avatar1.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
@@ -58,7 +58,7 @@
                   .tarjeta-numerada__contenido
                     p.mb-0 calidad total mediante la eficiencia y eficacia de la producción.
 
-            .col-md-5.col-xl.mb-5.mb-xl-0
+            .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/avatar2.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
@@ -67,7 +67,7 @@
                   .tarjeta-numerada__contenido
                     p.mb-0 respetar este sistema será producir solo a demanda.
 
-            .col-md-5.col-xl.mb-5.mb-xl-0
+            .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/avatar3.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
@@ -76,9 +76,9 @@
                   .tarjeta-numerada__contenido
                     p.mb-0 el sistema que asegura la mejora continua.
         
-        .col-lg-8.mb-4
+        .col-lg-6.mb-5
           .row.justify-content-center(@mouseover="mostrarIndicador = false")
-            .col-md-5.col-xl.mb-5.mb-xl-0
+            .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/avatar4.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
@@ -87,7 +87,7 @@
                   .tarjeta-numerada__contenido
                     p.mb-0 se basa en encontrar el cuello de botella para marcar el ritmo productivo de la cadena.
 
-            .col-md-5.col-xl.mb-5.mb-xl-0
+            .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
                 img(src='@/assets/curso/tema2/avatar5.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
@@ -150,7 +150,7 @@
         tbody
           tr.p-5(style='background-color: #F6F6F6')
             td.align-items-center.justify-content-center
-              figure.p-5
+              figure.p-4
                 img(src='@/assets/curso/tema2/4.png', class='img-fluid' style="width: 130px")
             td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
             td.align-items-center.justify-content-center
@@ -159,7 +159,7 @@
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
           tr.p-5
             td.text-center
-              figure.p-5
+              figure.p-4
                 img(src='@/assets/curso/tema2/5.png', class='img-fluid' style="width: 113px")
             td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
             td.text-center
@@ -168,7 +168,7 @@
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
           tr.p-5(style='background-color: #F6F6F6')
             td.text-center
-              figure.p-5
+              figure.p-4
                 img(src='@/assets/curso/tema2/6.png', class='img-fluid' style="width: 113px")
             td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
             td.text-center
@@ -177,7 +177,7 @@
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
           tr.p-5
             td.text-center
-              figure.p-5
+              figure.p-4
                 img(src='@/assets/curso/tema2/7.png', class='img-fluid' style="width: 125px")
             td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
             td.text-center
@@ -186,7 +186,7 @@
             td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
           tr.p-5(style='background-color: #F6F6F6')
             td.text-center
-              figure.p-5
+              figure.p-4
                 img(src='@/assets/curso/tema2/8.png', class='img-fluid' style="width: 112px")
             td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
             td.text-center

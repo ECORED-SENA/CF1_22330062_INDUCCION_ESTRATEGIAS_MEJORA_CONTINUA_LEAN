@@ -4,7 +4,7 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-lg-6.col-xxl-6.py-5.py-sm-5.banner-principal__info.ps-5
+      .col-lg-7.col-xxl-6.py-5.py-sm-5.banner-principal__info.ps-5
         .banner-principal__componente
           h1.text-white.mb-0(v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -47,10 +47,10 @@ export default {
   margin: 4em 0 0em 6.8em;
   @media (max-width:1400px)
     float: right
-    margin: 4em 0 0em 5.8em;
+    margin: 4em 0 0em 0em;
   @media (max-width:1200px)
     float: right
-    margin: 5em 0 0em 4.8em;
+    margin: 5em 0 0em 0em;
 
 .fondo-contenido
   position: absolute
@@ -59,13 +59,13 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 5em  !important
+  padding-left: 120px  !important
   z-index: 3
   display: flex
   flex-direction: column
   justify-content: center
   @media (max-width: $bp-max-xs)
-    padding: 2em  !important
+    padding: 3em  !important
     z-index: 3
     display: flex
     flex-direction: column

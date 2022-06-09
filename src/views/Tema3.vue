@@ -196,7 +196,7 @@
     p.mb-4 Las posibles causas que generan desperdicios en el Lean manufacturing se identifican a continuación:
 
     .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #AEDBEF")
-      ul.lista-ul.lista-ul.lista-ul--color
+      ul.lista-ul.lista-ul.lista-ul--color2
         li
           i.fas.fa-check-circle
           span No implementar sistemas de información donde se comparta o divulgue información a los directivos de las áreas de producción, donde se especifique unidades requeridas y tiempos de entrega para las órdenes que han sido solicitadas por los clientes.

@@ -7,10 +7,10 @@
         span 1
       h1 Conceptos generales del Lean manufacturing
 
-    figure.mb-4
+    figure.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img1.jpg', class='img-fluid')
 
-    .tarjeta.bgr.p-4.p-md-4.mb-5
+    .tarjeta.bgr.p-4.p-md-4.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-12.col-sm-12.col-md-12.mb-4.mb-md-0
           p El modelo de fabricación esbelta, conocido como Lean manufacturing permite a las empresas implementar modelos de organización y producción para que sean más competitivas en los mercados globales.<br><br/>Por esto, la manufactura esbelta es una filosofía de trabajo donde el personal de una empresa se involucra y define la forma de optimización y mejora de un sistema de producción, en el cual identifican y eliminan todo tipo de “desperdicios”, en especial esos procesos u ocupaciones que utilizan más recursos de los necesarios.
@@ -19,15 +19,15 @@
     #t_1_1.titulo-segundo.color-acento-contenido.mb-4
       h2 1.1.	Definición del Lean manufacturing 
 
-    .row.mb-4
+    .row.mb-4(data-aos="fade-left")
       .col-12.col-md-12
         figure
           .video
             iframe(width="942" height="530" src="https://www.youtube.com/embed/oJRhtnimo6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         
-    p.mb-4 El concepto de Lean manufacturing se refiere a la manufactura esbelta, este sistema nace en la primera mitad del Siglo XX y fue implementado en la gerencia de empresas como Toyota, en la que se creó una filosofía donde se promueve el mejoramiento continuo en los procesos de producción, con el objetivo de reducir costos y eliminar actividades que no agreguen valor. 
+    p.mb-4(data-aos="fade-up") El concepto de Lean manufacturing se refiere a la manufactura esbelta, este sistema nace en la primera mitad del Siglo XX y fue implementado en la gerencia de empresas como Toyota, en la que se creó una filosofía donde se promueve el mejoramiento continuo en los procesos de producción, con el objetivo de reducir costos y eliminar actividades que no agreguen valor. 
 
-    .row 
+    .row(data-aos="fade-up")
       .col-md-4
         figure.mb-4
           img(src='@/assets/curso/tema1/img2.jpg', class='img-fluid' style="width: 420px")
@@ -37,14 +37,14 @@
         .cajon.color-acento-contenido.p-4.mb-4.col-12
           p La herramienta y técnica de mejora continua (kaizen), metodologías de solución de problemas como 5 porqués y los sistemas a prueba de errores (poka yokes). En un segundo enfoque, se considera el “flujo de producción” (mura) a través del sistema y la reducción de desperdicios, de acuerdo con González (2007), los cuales aplican métodos para mejorar el flujo como son la producción nivelada (reducción de muri), kanban o la tabla de heijunka o de control de producción, conforme con la fuente citada.<br><br/>Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
 
-    p.mb-5 Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
+    p.mb-5(data-aos="fade-up") Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
 
     .bg_grad-02
-      .titulo-sexto.color-acento-contenido.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-up")
         h5 Figura 1
         span Estructura de una base de datos
 
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-up")
         .col-md-8 
           figure.mb-4
             img(src='@/assets/curso/tema1/fig1.png', class='img-fluid')
@@ -62,9 +62,9 @@
             .bloque-texto-g__texto.p-4
               p(data-aos="fade-down").mb-0 El Lean manufacturing es un grupo de filosofías administrativas e industriales procedentes de Japón, que se inició en el año 1976, según Olaya y Romero (2015), los Japoneses Eiji Toyoda y Taichi Ohno, de la Toyota Motors Company utilizaron el concepto de Lean manufacturing, el cual se basa en técnicas para mejorar, optimizar y maximizar las oportunidades de mejora que se presenten dentro de los procesos. El término Lean fue acuñado por un grupo de estudio del Massachusetts Institute of Technology para analizar en el nivel mundial los métodos de manufactura de las empresas de la industria automotriz. Lo anterior conforme a Wilches, Cabarcas, Lucuara y González (2013).
 
-    p.mb-5 Sabiendo lo anterior, a continuación, se invita a revisar los principales autores que dieron origen al sistema de producción Lean manufacturing, sus aportes en este concepto y su utilidad en el sector industrial: 
+    p.mb-5(data-aos="fade-up") Sabiendo lo anterior, a continuación, se invita a revisar los principales autores que dieron origen al sistema de producción Lean manufacturing, sus aportes en este concepto y su utilidad en el sector industrial: 
 
-    .row.justify-content-center.align-items-center 
+    .row.justify-content-center.align-items-center(data-aos="fade-up")
       .col-md-10
         LineaTiempoB.color-acento-contenido.mb-5.p-5(:datos="datosLineaTiempoB")(style='background-color: #F6F6F6')
     separador 
@@ -72,7 +72,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido.mb-4
       h2 1.3.	Estructura del sistema Lean
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-md-7
         p.mb-4 El sistema Lean contempla un alto compromiso en la cultura empresarial de las organizaciones que decidan implementarlos. En estas condiciones es difícil hacer un esquema sencillo que refleje los diversos pilares, fundamentos, principios, técnicas y procesos que contempla y, que no constantemente son homogéneos, teniendo presente que se manejan técnicas y conceptos que varían según la fuente consultada.
         .cajon.color-acento-contenido.p-4.mb-4.col-12
@@ -82,7 +82,7 @@
             img(src='@/assets/curso/tema1/img4.jpg', class='img-fluid')
     
     .bg_grad-04
-      .row  
+      .row(data-aos="fade-down")
         .col-md-7
           figure.mb-2
             img(src='@/assets/curso/tema1/fig2.svg', class='img-fluid' style="width: 706px")
@@ -90,35 +90,40 @@
           figure.mb-2.py-5
             img(src='@/assets/curso/tema1/1.png', class='img-fluid' style="width: 515px")
 
-    p.mb-4 De acuerdo con la estructura anterior, se revisarán las herramientas y técnicas empleadas en el sistema de manufactura esbelta y su funcionalidad dentro de los procesos productivos de las empresas; estas se presentan a continuación:
+    p.mb-4(data-aos="fade-down") De acuerdo con la estructura anterior, se revisarán las herramientas y técnicas empleadas en el sistema de manufactura esbelta y su funcionalidad dentro de los procesos productivos de las empresas; estas se presentan a continuación:
 
-    .row.justify-content-center.align-items-center.mt-5.mb-4 
+    .row.justify-content-center.align-items-center.mt-5.mb-4(data-aos="fade-down")
         .col-lg-12(data-aos="fade-down")
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img5.jpg')})`}")
             .bloque-texto-g__texto.p-4
-              p(data-aos="fade-down").mb-0 <b>Herramientas y técnicas de la manufactura esbelta</b> <br><br/>Las empresas de diferentes sectores materializan la implementación del Lean manufacturing mediante la aplicación de una gran variedad de técnicas, que son muy diferentes entre sí. Estas técnicas se pueden implementar de forma independiente o conjunta y son utilizadas en herramientas de diagnóstico, operativa y de seguimiento. 
+              h5(data-aos="fade-down").mb-0 Herramientas y técnicas de la manufactura esbelta 
+              p Las empresas de diferentes sectores materializan la implementación del Lean manufacturing mediante la aplicación de una gran variedad de técnicas, que son muy diferentes entre sí. Estas técnicas se pueden implementar de forma independiente o conjunta y son utilizadas en herramientas de diagnóstico, operativa y de seguimiento. 
     
-    p.mb-4 Vea las diferentes herramientas y técnicas que se implementan en los sistemas productivos. Se invita a revisar y comprender su uso y aplicabilidad en las empresas:
+    p.mb-4(data-aos="fade-down") Vea las diferentes herramientas y técnicas que se implementan en los sistemas productivos. Se invita a revisar y comprender su uso y aplicabilidad en las empresas:
 
     .d-flex.flex-wrap.mb-5
       .col-lg-7.order-2.order-lg-1
         LineaTiempoD.linea-tiempo-1
-          p(numero="1" titulo="Herramientas de diagnóstico") <b>Técnica VSM-Mapeo</b>-Mapeo del flujo de valor<br><br/>Comprende  el flujo para que un producto o servicio llegue al comprador
+          .row(numero="1" titulo="Herramientas de diagnóstico") 
+            p <b>Técnica VSM-Mapeo</b> - Mapeo del flujo de valor
+            p Comprende  el flujo para que un producto o servicio llegue al comprador
           
-          p(numero="2" titulo="Herramienta de seguimiento") <b>Técnica gestión visual</b> 
-            <br> Conjunto de técnicas de control y comunicación visual que ayudan a la estandarización de procesos y políticas, atractivos a la vista y fáciles de entender.
-            <br><br/><b>Técnica KPIs</b>
-            <br>Indicadores claves de desempeño
+          .row(numero="2" titulo="Herramienta de seguimiento") 
+            h5 Técnica gestión visual 
+            p Conjunto de técnicas de control y comunicación visual que ayudan a la estandarización de procesos y políticas, atractivos a la vista y fáciles de entender.
+            h5 Técnica KPIs
+            p Indicadores claves de desempeño
 
-          p(numero="3" titulo="Herramientas Operativas") <b>Técnica 5S Técnica 5S</b> 
-            <br> Utilizadas para la mejora de las condiciones de trabajo en la empresa, a través de una excelente organización, orden y limpieza en el puesto de trabajo.
-            <br><br/><b>Técnica YIDOKA</b>
-            <br>Es la automatización con toque humano.
-            <br><br/><b>Técnica POKA YOKE</b>
-            <br>Es una técnica para evitar los simples errores humanos en el trabajo.
-            <br><br/><b>Técnica KAIZEN</b>
-            <br>La búsqueda incesante de mejores niveles de desempeño en materia de calidad, costos, tiempos de respuesta, velocidad de ciclos, productividad, seguridad y flexibilidad, entre otros.
+          .row(numero="3" titulo="Herramientas Operativas") 
+            h5 Técnica 5S Técnica 5S 
+            p Utilizadas para la mejora de las condiciones de trabajo en la empresa, a través de una excelente organización, orden y limpieza en el puesto de trabajo.
+            h5 Técnica YIDOKA
+            p Es la automatización con toque humano.
+            h5 Técnica POKA YOKE
+            p Es una técnica para evitar los simples errores humanos en el trabajo.
+            h5 Técnica KAIZEN
+            p La búsqueda incesante de mejores niveles de desempeño en materia de calidad, costos, tiempos de respuesta, velocidad de ciclos, productividad, seguridad y flexibilidad, entre otros.
 
 
       .col-lg-5.order-1.order-lg-2.px-0.px-lg-4.mx-auto
@@ -171,15 +176,19 @@
     .bg_grad-06
       #t_1_5.titulo-segundo.color-acento-contenido.mb-4
         h2 1.5.	Principios del sistema Lean
-
-      p.mb-4 El Lean manufacturing se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema Lean manufacturing y su importancia en la filosofía de las empresas se describe a continuación: 
+      .row 
+        p.mb-4 El Lean manufacturing se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema Lean manufacturing y su importancia en la filosofía de las empresas se describe a continuación: 
       
+      .row.justify-content-center.mb-5
+        .col-md-4
+          h5 5 Principios del sistema Lean manufacturing  
+
       .row
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
-              .tarjeta.color-primario
+              .tarjeta.color-primario.tema-1
                 .p-4
                   h4.text-center 1. Generar valor
                   p.text-center el valor está en lograr resolver o satisfacer la necesidad del cliente y que esté dispuesto a pagar por el producto o servicio entregado, eliminando todas esas actividades o procesos que no aportan valor y que se consideran como mudas o desperdicios.  
@@ -187,7 +196,7 @@
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
-              .tarjeta.color-primario
+              .tarjeta.color-primario.tema-1
                 .p-4
                   h4.text-center 2. Entender la cadena de valor
                   p.text-center se debe tener claridad de las actividades que generan valor, con el fin de ofrecer al cliente lo que pide. El objetivo es identificar los cuellos de botella que ocasionan desperdicios. 
@@ -195,7 +204,7 @@
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/8.svg' alt='AvatarTop')
-              .tarjeta.color-primario
+              .tarjeta.color-primario.tema-1
                 .p-4
                   h4.text-center 3. Flujo de trabajo continuo
                   p.text-center se debe evitar los cuellos de botella y las interrupciones,  esto se logra si se divide en grupos pequeños de trabajo.  
@@ -203,7 +212,7 @@
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/9.svg' alt='AvatarTop')
-              .tarjeta.color-primario
+              .tarjeta.color-primario.tema-1
                 .p-4
                   h4.text-center 4. Creación sistema de trabajo específico
                   p.text-center se busca optimizar los procesos y recursos de los equipos de trabajo, haciéndolos mucho más rápido y con menos esfuerzo.
@@ -211,7 +220,7 @@
           .col-md-11.col-lg.mb-5.mb-lg-0
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/10.svg' alt='AvatarTop')
-              .tarjeta.color-primario
+              .tarjeta.color-primario.tema-1
                 .p-4
                   h4.text-center 5. Mejora continua
                   p.text-center se debe comprometer y asegurarse de que los empleados participen en la mejora continua de los procesos de la empresa.
