@@ -102,7 +102,7 @@
 
       .row.mb-5(data-aos="fade-left")
         .col-md-6
-          figure
+          figure.mb-3
             img(src='@/assets/curso/tema2/2.png', class='img-fluid')
         .col-md-6
           p Depende de varias características en cuanto a la disponibilidad de la maquinaria dispuesta en los procesos productivos de las fábricas. Asimismo, de varios factores, diversidad de productos, tipos de pedidos, volumen de ventas y frecuencia en los pedidos. 

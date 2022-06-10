@@ -55,8 +55,8 @@
               figure
                 img(src='@/assets/curso/tema3/2.jpg', class='img-fluid')
             td Ocurre una vez que se fabrica más cantidad del producto del que es necesario, además se da una vez que el equipamiento que se ha adquirido o diseñado cuenta con unas prestaciones descomunales.<br><br/>Al no cumplir con los requerimientos de producción, se generan desperdicios sobrecargando los procesos productivos y encareciendo el producto final.
-            td 
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Gran cantidad de stock.
@@ -74,8 +74,8 @@
               figure
                 img(src='@/assets/curso/tema3/3.jpg', class='img-fluid')
             td Este desperdicio se deriva de un exceso de trayecto en medio de las máquinas de una línea de producción; tales movimientos involucran una ralentización del proceso, y agregan al stock un peligro de deterioro a medida que tiene lugar el traslado. Ocurre una vez que la localización de los diferentes puntos de la cadena es deficiente.
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Difícil manipulación de carga de contenedores por sus dimensiones y peso.
@@ -87,8 +87,8 @@
               figure
                 img(src='@/assets/curso/tema3/4.jpg', class='img-fluid')
             td La muda por tiempo de espera se muestra en los tiempos muertos entre fases de la cadena que evidencian niveles desiguales de la carga de trabajo.<br><br/>Se hace visible una vez que se detecta que unos operarios están saturados, mientras que otros apenas poseen trabajo.<br><br/>Este tipo de desperdicio se puede presentar por alguna de las siguientes situaciones: daños en alguna pieza en los procesos productivos, demoras en aprobaciones por parte del supervisor, falta de materia prima y planeación del trabajo.
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Pérdida de tiempo del operario, ya que esta espera a que la maquinaria termine.
@@ -109,8 +109,8 @@
               figure
                 img(src='@/assets/curso/tema3/5.jpg', class='img-fluid')
             td Se presenta cuando hay procesos repetitivos en la cadena de producción, como por ejemplo, validaciones innecesarias, informes prescindibles o especificaciones desmesuradas.<br><br/>Comúnmente, la carencia de comunicación o la confusión de las exigencias del comprador proporcionan como consecuencia este desperdicio.
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span No existe estandarización en los procedimientos.
@@ -125,8 +125,8 @@
               figure
                 img(src='@/assets/curso/tema3/6.jpg', class='img-fluid')
             td Se puede presentar por un gran volumen de inventario o bien por disponer de demasiada instrumentación en la línea de producción.<br><br/>Un inventario no optimizado comúnmente se queda obsoleto, con los consiguientes inconvenientes de disminución y desfase en relación con otros productos que dan beneficios superiores.
-            td  
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Excesivo inventario en el establecimiento.
@@ -144,8 +144,8 @@
               figure
                 img(src='@/assets/curso/tema3/7.jpg', class='img-fluid')
             td Movimientos innecesarios del personal dentro del puesto de trabajo dan lugar a dilapidar el tiempo en desplazarse de un punto a otro para efectuar gestiones que no tienen la posibilidad de ser abordadas de otra forma, pero que no aportan valor alguno al proceso de producción.<br><br/>También se pueden encontrar desplazamientos innecesarios de maquinaria que no aporta valor a lo que la empresa ofrece.
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Caminar innecesariamente de un punto a otro.
@@ -160,8 +160,8 @@
               figure
                 img(src='@/assets/curso/tema3/8.jpg', class='img-fluid')
             td Este desperdicio pasa cuando el producto presenta defectos en el proceso de producción y no cumple satisfactoriamente el trabajo, lo que implica una carga adicional para ser subsanado.<br><br/>Es importante optimizar los procesos productivos para prevenir defectos y, si de todas maneras se presentan, lograr identificarlos lo antes posible, así será más sencillo resolverlos.
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span Los errores en una empresa consumen tiempo.
@@ -176,8 +176,8 @@
               figure
                 img(src='@/assets/curso/tema3/9.jpg', class='img-fluid')
             td Este desperdicio pertenece a los más sutiles, pues no se puede identificar a corto plazo: se da una vez que el personal está infrautilizado y la empresa desaprovecha las capacidades, conocimiento y experiencia de su personal.<br><br/>La prudencia del trabajador o la autoridad del capataz tiene la posibilidad de determinar la interacción interpersonal y no llegar a conocer el potencial de los individuos con los que se trabaja.<br><br/>Únicamente se puede identificar una vez que existe un cauce de comunicación con el empleado y se le escucha. Como reza una de las máximas del Lean: «el trabajo lo conoce quien lo realiza» (Production Tools, 2021).
-            td
-              ul.lista-ul.lista-ul.lista-ul--color.p-4
+            td.px-md-4.px-3
+              ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
                     span La desmotivación es alta en un empleado.
