@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    p.mb-4 El siguiente mapa mental resume las temáticas desarrolladas en el componente formativo sobre los conceptos, antecedentes, herramientas, tipos de mudas y sistemas productivos en el Lean manufacturing.
+    p.mb-4 El siguiente mapa mental resume las temáticas desarrolladas en el componente formativo sobre los conceptos, antecedentes, herramientas, tipos de mudas y sistemas productivos en el <i>Lean manufacturing</i>.
     
     .row.justify-content-center
         .col-lg-12.mb-5

@@ -17,9 +17,9 @@
     separador 
 
     #t_2_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
-      h2 2.1.	Conceptualización del sistema producción Lean manufacturing
+      h2 2.1.	Conceptualización del sistema producción <i>Lean manufacturing</i>
 
-    p.mb-5(data-aos="fade-right") Los sistemas de producción Lean buscan la mejora de la competitividad desde el método de identificación y supresión (o reducción) de los desperdicios de los materiales y de información, conforme a LeanBox (s.f.) son apoyados en el sistema de producción Toyota, perfeccionado por esta compañía a partir de los años 60 del Siglo XX y que actualmente se demostró ser el más eficaz para la fabricación de series cortas y variadas, según la fuente citada.
+    p.mb-5(data-aos="fade-right") Los sistemas de producción <i>Lean</i> buscan la mejora de la competitividad desde el método de identificación y supresión (o reducción) de los desperdicios de los materiales y de información, conforme a LeanBox (s.f.) son apoyados en el sistema de producción Toyota, perfeccionado por esta compañía a partir de los años 60 del Siglo XX y que actualmente se demostró ser el más eficaz para la fabricación de series cortas y variadas, según la fuente citada.
     
     .row.justify-content-center.align-items-center.mt-5.mb-5
       .col-lg-12(data-aos="fade-down")
@@ -29,7 +29,7 @@
           )
             .imagen-superior.position-absolute(style='bottom:0px ; left: -0%' ): img(src='@/assets/curso/tema2/flota.png')
           .bloque-texto-g__texto.p-5
-            p.mb-0 La preparación de pedidos es también llamada <em>picking</em>, y se define como el proceso mediante el cual se seleccionan y recogen los productos desde las estanterías, pasillos, y demás espacios de la bodega o almacén; con el objetivo de organizar y preparar la mercancía y objetos postales para ser embalados (<em>packing</em>) y enviados a sus respectivos clientes finales.
+            p.mb-0 Cabe señalar que los sistemas de producción Lean tienen diferentes formas, tales como <i>Lean manufacturing</i>, producción precisa, producción esbelta, <i>just in time (JIT)</i> y <i>kaizen</i> o mejoramiento continuo, entre otras, como todo procedimiento se basa en unos principios (lógica) que se ponen en marcha mediante unas herramientas (acción) a través de una metodología (proceso de cambio), según afirma LeanBox (s.f.).
 
     .bg_grad-08
       .row.mb-4 
@@ -39,6 +39,7 @@
       .row.mb-5.align-items-center(data-aos="fade-right")
         .col-md-6
           p.mb-4 Los sistemas de producción generalmente se catalogan conforme con la disposición de las maquinarias y áreas dentro de las fábricas manufactureras o por las particularidades generales del propio sistema. La decisión sobre el sistema de producción es dependiente de diversos componentes, entre ellos la diversidad de productos, los tipos de pedidos, volumen de ventas, incertidumbre en la demanda y la frecuencia en los pedidos, según Tejeda (2011).
+          p Por su parte, Andreu (2021) en materia del <i>Lean manufacturing</i> indica que esta filosofía presenta cinco sistemas de producción, que se relacionan a continuación:
         .col-md-6
           figure
             img(src='@/assets/curso/tema2/1.png', class='img-fluid')
@@ -54,7 +55,7 @@
                 img(src='@/assets/curso/tema2/avatar1.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
                   .indicador--click(v-if="mostrarIndicador")
-                  h4 TQM (Total quality management)
+                  h4 TQM (<i>Total quality management</i>)
                   .tarjeta-numerada__contenido
                     p.mb-0 calidad total mediante la eficiencia y eficacia de la producción.
 
@@ -63,7 +64,7 @@
                 img(src='@/assets/curso/tema2/avatar2.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
                   .indicador--click(v-if="mostrarIndicador")
-                  h4 JIT (Just in time o justo a tiempo)
+                  h4 JIT (<i>Just in time</i> o justo a tiempo)
                   .tarjeta-numerada__contenido
                     p.mb-0 respetar este sistema será producir solo a demanda.
 
@@ -72,7 +73,7 @@
                 img(src='@/assets/curso/tema2/avatar3.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
                   .indicador--click(v-if="mostrarIndicador")
-                  h4 Kaizen
+                  h4 <i>Kaizen</i>
                   .tarjeta-numerada__contenido
                     p.mb-0 el sistema que asegura la mejora continua.
         
@@ -92,9 +93,9 @@
                 img(src='@/assets/curso/tema2/avatar5.svg' alt='AvatarTop')
                 .tarjeta-numerada.text-center.tarjeta_t5.p-4.shadow.ind--click_tarjetas(data-aos="fade-right")
                   .indicador--click(v-if="mostrarIndicador")
-                  h4 JIT (Just in time o justo a tiempo)
+                  h4 Reingeniería de procesos
                   .tarjeta-numerada__contenido
-                    p.mb-0 respetar este sistema será producir solo a demanda.
+                    p.mb-0 perfecciona la mejora a gran escala.
 
       .row.mb-4(data-aos="fade-left")
         .col-md-5(data-aos="zoom-in")
@@ -161,38 +162,38 @@
             td.text-center
               figure.p-4
                 img(src='@/assets/curso/tema2/5.png', class='img-fluid' style="width: 113px")
-            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center <b>Decisión:</b> señala un punto en el flujo donde se produce una bifurcación del tipo  “sí”-”no”.
             td.text-center
               figure.p-5
                 img(src='@/assets/curso/tema2/10.png', class='img-fluid' style="width: 113px")
-            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+            td.text-center <b>Documento:</b> documento utilizado en el proceso.
           tr.p-5(style='background-color: #F6F6F6')
             td.text-center
               figure.p-4
                 img(src='@/assets/curso/tema2/6.png', class='img-fluid' style="width: 113px")
-            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center <b>Multidocumento:</b> refiere un conjunto de documentos, por ejemplo, un expediente.
             td.text-center
               figure.p-5
                 img(src='@/assets/curso/tema2/11.png', class='img-fluid' style="width: 93px")
-            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+            td.text-center <b>Inspección/firma:</b> aplicado en aquellas acciones que requieren de supervisión.
           tr.p-5
             td.text-center
               figure.p-4
                 img(src='@/assets/curso/tema2/7.png', class='img-fluid' style="width: 125px")
-            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center <b>Conector de un proceso:</b> conexión o enlace con otro proceso, en el que continúa el diagrama de flujo, por ejemplo, un subproceso.
             td.text-center
               figure.p-5
                 img(src='@/assets/curso/tema2/12.png', class='img-fluid' style="width: 92px")
-            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.
+            td.text-center <b>Archivo:</b> se utiliza para reflejar la acción de archivo de un documento o expediente.
           tr.p-5(style='background-color: #F6F6F6')
             td.text-center
               figure.p-4
                 img(src='@/assets/curso/tema2/8.png', class='img-fluid' style="width: 112px")
-            td.text-center <b>Terminal:</b> indica el inicio o la terminación del flujo del proceso.
+            td.text-center <b>Base de datos:</b> empleada para representar la grabación de datos.
             td.text-center
               figure.p-5
                 img(src='@/assets/curso/tema2/13.png', class='img-fluid' style="width: 130px")
-            td.text-center <b>Actividad:</b> representa la actividad llevada a cabo en el proceso.      
+            td.text-center <b>Línea de flujo:</b> indica el sentido del flujo del proceso.      
 
     p.mb-2.text-center(data-aos="zoom-in") Nota. Adaptado de Tejeda (2011). https://www.redalyc.org/pdf/870/87019757005.pdf 
     separador 

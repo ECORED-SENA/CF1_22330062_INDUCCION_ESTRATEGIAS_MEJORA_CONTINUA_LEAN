@@ -23,13 +23,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Conceptos generales del Lean manufacturing',
+        titulo: 'Conceptos generales del <i>Lean manufacturing</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Definición del Lean manufacturing',
+            titulo: 'Definición del <i>Lean manufacturing</i>',
             hash: 't_1_1',
           },
           {
@@ -41,25 +41,25 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Estructura del sistema Lean',
+            titulo: 'Estructura del sistema <i>Lean</i>',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Beneficios de la implantación Lean',
+            titulo: 'Beneficios de la implantación <i>Lean</i>',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Principios del sistema Lean',
+            titulo: 'Principios del sistema <i>Lean</i>',
             hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Pensamiento Lean',
+            titulo: 'Pensamiento <i>Lean</i>',
             hash: 't_1_6',
           },
         ],
@@ -75,7 +75,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '2.1',
             titulo:
-              'Conceptualización del sistema producción Lean manufacturing',
+              'Conceptualización del sistema producción <i>Lean manufacturing</i>',
             hash: 't_2_1',
           },
           {
@@ -98,7 +98,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
-              'Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (Lean)',
+              'Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (<i>Lean</i>)',
             hash: 't_3_1',
           },
           {
@@ -110,7 +110,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Causas posibles y acciones Lean',
+            titulo: 'Causas posibles y acciones <i>Lean</i>',
             hash: 't_3_3',
           },
         ],
@@ -157,144 +157,134 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Ardila, E. (1984), Técnicas de ventas: objeciones. SENA.',
+      referencia:
+        'Andreu, I. (2021). Lean manufacturing: ¿qué es y cuáles son sus principios?',
+      link:
+        'https://www.apd.es/lean-manufacturing-que-es/#:~:text=La%20filosof%C3%ADa%20Lean%20Manufacturing%2C%20tambi%C3%A9n,al%20proceso%20ni%20al%20cliente',
     },
     {
       referencia:
-        'Código de Comercio de Colombia. (1974). Definición de empresa.',
-      link:
-        'https://www.camarabaq.org.co/wp-content/uploads/2021/03/CodigodeComercio-2.pdf',
+        'Alteco Consultores. (s.f.). Qué es un diagrama de flujo de proceso o flujograma.',
+      link: 'https://www.aiteco.com/diagrama-de-flujo/',
     },
     {
-      referencia: 'Navarro, M. (2012). Técnicas de ventas. ',
+      referencia: 'Navarro, M. (2012). Técnicas de ventas.',
       link:
         'https://www.aliat.click/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
     },
     {
       referencia:
-        'Viña. A. (2005). Atención y servicio al cliente con nuevas tecnologías de información y comunicación. SENA.',
-      link: 'https://repositorio.sena.edu.co/handle/11404/2345',
+        'Arenas, J. y Castro, A. (2021). Plan de intervención al proceso productivo en la empresa Industrias Alimenticias Carolina S.A.S. Universidad EAN Facultad de Administración, Finanzas y Ciencias Económicas Maestría en Administración de Empresas MBA.',
+    },
+    {
+      referencia:
+        'González, F. (2007). Manufactura esbelta (Lean manufacturing). Principales herramientas. Revista Panorama Administrativo, 1(2).',
+    },
+    {
+      referencia:
+        'LeanBox, (s.f.). Lean manufacturing. Un sistema de producción eficiente para series cortas y variadas.',
+      link: 'https://leanbox.es/que-hacemos/sistemas-de-produccion-lean/',
+    },
+    {
+      referencia:
+        'Olaya, M. y Romero, S. (2015). Desarrollo de manufactura esbelta en los procesos de la empresa Martinplast S.A.S. Universidad Libre Facultad de Ingeniería, Programa de Ingeniería Industrial.',
+    },
+    {
+      referencia:
+        'Production Tools. (2021). 8 desperdicios en Lean manufacturing',
+      link:
+        'https://productiontools.es/lean/desperdicios-en-el-lean-manufacturing/',
+    },
+    {
+      referencia: 'Quiroga, M. (2019). Proceso productivo. Economipedia.',
+      link: 'https://economipedia.com/definiciones/proceso-productivo.html',
+    },
+    {
+      referencia:
+        'Pérez, A. (2017). Economías de escala: Definición y tipos. OBS Business School.',
+      link:
+        'https://www.obsbusiness.school/blog/economia-de-escala-definicion-y-tipos',
+    },
+    {
+      referencia:
+        'Ramírez, N., Mungaray, A., Ramírez, M. y Texis, M. (2010). Economías de escala y rendimientos crecientes. Una aplicación en microempresas mexicanas. Nueva Época, vol. XIX, (2), p. 213-230. Centro de Investigación y Docencia Económica, México.',
+      link: 'https://www.redalyc.org/pdf/323/32315831001.pdf',
+    },
+    {
+      referencia:
+        'Tejeda, A. (2011), Mejoras de Lean manufacturing en los sistemas productivos. Ciencia y Sociedad, vol. XXXVI, (2), p. 276-310 Instituto Tecnológico de Santo Domingo, Santo Domingo, República Dominicana.',
     },
   ],
   glosario: [
     {
-      termino: 'Actitud',
+      termino: 'Control visual',
       significado:
-        'Valoraciones favorables o desfavorables, opiniones y tendencias que sistemáticamente presenta una persona respecto a un objeto o idea.',
+        'Herramienta del <i>Lean manufacturing</i> que hace evidente las desviaciones del estándar. Por medio de información visual como paneles, gráficos, esquemas o normas se hacen visibles los despilfarros, dando a conocer el estándar vigente en cada instante y haciendo más fácil la supervisión del cumplimiento del estándar.',
     },
     {
-      termino: 'Bases de datos',
+      termino: 'Defecto',
       significado:
-        'Conjunto de datos relacionados con un determinado aspecto de un negocio que se almacena sistemáticamente para un uso específico.',
+        'Producto que se desvía de las especificaciones o no satisface las expectativas del comprador, incluyendo los puntos relativos a seguridad.',
     },
     {
-      termino: 'BI',
+      termino: 'Despilfarro',
       significado:
-        'Sigla alusiva a la inteligencia de negocios (business intelligence). Es el conjunto de aplicaciones, herramientas, análisis y conocimientos que permiten a la empresa conocer información oportuna para la toma de decisiones de negocio.',
+        'Acciones que consumen tiempo, recursos y espacio; sin embargo, no contribuyen a satisfacer las necesidades del cliente. En japonés, muda.',
     },
     {
-      termino: '<em>Billing</em>',
+      termino: 'Espera',
       significado:
-        'Es el término acuñado a nivel técnico para hacer relación a los sistemas de información, cuya finalidad es la facturación.',
+        'Es uno de los “tipos de desperdicio”. El tiempo que los empleados consumen “esperando”, ya sea por falta de material o máquinas/procesos desequilibrados.',
     },
     {
-      termino: 'Moda',
+      termino: 'Flujo continuo',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es el sistema de “mover uno, producir uno”. En su forma ideal las unidades de material avanzan progresivamente de operación en operación, adquiriendo valor sin esperas, ni defectos.',
     },
     {
-      termino: 'Cliente',
+      termino: '<i>Just in time</i>',
       significado:
-        'Es el centro de la estrategia de la empresa. Representa a la persona o empresa que adquiere los bienes y servicios.',
+        'Radica en producir los artículos necesarios en el instante preciso y en las cantidades debidas para satisfacer la demanda, combinando al mismo tiempo flexibilidad, calidad y coste.',
     },
     {
-      termino: 'CRM',
+      termino: '<i>Kaizen</i>',
       significado:
-        'Sigla alusiva a la Administración de las Relaciones con los Clientes <em>(Customer Relationship Management).</em> Como sistema de información permiten tener consolidada, organizada y disponible la información de los clientes.',
+        'Significa “cambio para mejorar”, de forma que no se trata solo de un programa de reducción de costes, sino que involucra una cultura de cambio constante para evolucionar hacia mejores prácticas, lo que se conoce comúnmente como “mejora continua”.',
     },
     {
-      termino: 'Empatía',
+      termino: 'Muda',
       significado:
-        'Principio básico necesario para la interacción con clientes, consiste en ponerse en el lugar del otro, sin perder la objetividad.',
+        'Palabra japonesa que significa “desperdicio”. Una actividad que consume recursos, pero no genera valor.',
     },
     {
-      termino: 'Empresa',
-      significado: 'Estructura económica sobre la cual funciona la economía.',
-    },
-    {
-      termino: 'ERP',
+      termino: 'Sobreproducción',
       significado:
-        'Sigla asociada al sistema de planificación de recursos empresariales <em>(enterprise resource planning).</em> A nivel de sistema de información permite que la empresa tenga sistematizados varios procesos.',
-    },
-    {
-      termino: 'Objeciones',
-      significado:
-        'Mecanismos utilizados por los clientes para ahondar en el proceso de ventas, ya sea para conocer y validar información o para desistir de la transacción.',
-    },
-    {
-      termino: 'Satisfacción del cliente',
-      significado:
-        'Grado en el que el desempeño percibido de un producto o servicio coincide con las expectativas del comprador.',
-    },
-    {
-      termino: 'Servicio',
-      significado:
-        'Es la combinación de varias cualidades (intangibles) como desempeño, esfuerzo, atención y otros tangibles como un trato amable, un obsequio, los muebles de la sala de recibo, entre otros.',
-    },
-    {
-      termino: 'Sistema de información',
-      significado:
-        'Conjunto de aplicaciones que permiten administrar información de interés para las empresas.',
-    },
-    {
-      termino: 'Valor',
-      significado:
-        'Asignación monetaria que da un cliente a un producto en función de la necesidad que satisface o de la usabilidad que representa.',
+        'Es uno de los “tipos de desperdicio”. Ocurre cuando se fabrica más cantidad de producto de lo que se necesita.',
     },
   ],
   complementario: [
     {
-      texto: 'SENA. (2022). Misión y Visión del SENA. SENA. ',
-      tipo: 'Articulo',
-      link: 'https://www.sena.edu.co/es-co/sena/Paginas/misionVision.aspx',
+      texto: 'SENA Antioquia. (2015). Qué es Lean manufacturing ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=TcEYkfKjOCs',
     },
     {
       texto:
-        'Resolución 01726 de 2014. [Servicio Nacional de Aprendizaje]. Por la cual se adopta la Política Institucional para Atención de las personas con discapacidad. Agosto 12 de 2014.',
-      tipo: 'Resolución',
-      link:
-        'https://normograma.sena.edu.co/normograma/docs/resolucion_sena_1726_2014.htm',
+        'Piñero, A. (2019). Historia de Toyota su filosofía de calidad, los líderes y creadores del TPS o <i>Lean manufacturing</i>',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=CqXk3lWKAq8',
     },
     {
       texto:
-        'Acuerdo 010 de 2016. [Servicio Nacional de Aprendizaje]. Por medio del cual se adopta la política de Atención con Enfoque Pluralista y Diferencial en el SENA. Diciembre 20 de 2016.',
-      tipo: 'Acuerdo',
-      link:
-        'https://normograma.sena.edu.co/normograma/docs/acuerdo_sena_0010_2016.htm',
-    },
-    {
-      texto:
-        'GraphEverywhere. (2022). Tipos de bases de datos. Clasificación por contenido y modelo.',
+        'Romero, D. and González, C. (2019). Demanda del cliente como cimiento de la manufactura esbelta en la industria láctea. CICAG Revista del Centro de Investigación de Ciencias Administrativas y Gerenciales, 17 (1), p. 76-96.',
       tipo: 'Artículo',
-      link:
-        'https://www.grapheverywhere.com/tipos-bases-de-datos-clasificacion/',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=8287429',
     },
     {
       texto:
-        'Ley 1755 de 2015 de Colombia. Por medio de la cual se regula el Derecho Fundamental de Petición y se sustituye un título del Código de Procedimiento Administrativo y de lo Contencioso Administrativo. Diciembre 30 de 2015.',
-      tipo: 'Ley',
-      descarga: '/downloads/L-1755-2015.pdf',
-    },
-    {
-      texto:
-        'Diccionario de la Real Academia de la Lengua Española. Término objeción.',
-      tipo: 'Diccionario en línea',
-      link: 'https://dle.rae.es/objeci%C3%B3n',
-    },
-    {
-      texto: 'Navarro, M. (2012). Técnicas de ventas.',
-      tipo: 'Libro digital',
-      link: '/downloads/Tecnicas_de_venta.pdf',
+        'Rajadell, M. y Sánchez, J. (2010). <i>Lean manufacturing</i>: la evidencia de una necesidad. Ediciones Díaz de Santos. ',
+      tipo: 'Libro',
+      link: 'https://acortar.link/4WSVBE',
     },
   ],
   creditos: {
@@ -313,7 +303,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Diana Carolina Jaramillo Rojas',
+        nombre: 'May Stefanny González',
         cargo: 'Experta temática',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
@@ -343,41 +333,71 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Yuly Rey',
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Carlos Andrés Díaz Pinto',
+        nombre: 'Carlos Mauricio Gómez Delgado',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Estefani Daniela Gallo Corté',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Ludwyng Corzo García',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Laura Ximena Hurtado Villalba',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+      },
+      {
+        nombre: 'Pedro Nel Calao Zabala',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional - Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

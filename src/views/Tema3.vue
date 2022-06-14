@@ -25,7 +25,7 @@
     separador 
 
     #t_3_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
-      h2 3.1.	Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (Lean) 
+      h2 3.1.	Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (<i>Lean</i>) 
 
     p.mb-4(data-aos="fade-right") Según González Correa (2007), citado por Quiñones y Rojas (2020) este concepto de mudas es utilizado en el TPS (sistema de producción Toyota) que permite identificar los desperdicios que deben ser eliminados, estos son:   
 
@@ -39,7 +39,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.2.	Características de los desperdicios
     
-    p.mb-4(data-aos="fade-right") Se presentan en las diferentes actividades o procesos que desarrolla la empresa y estas se fundamentan en el concepto de “muda” que es una expresión japonesa que hace referencia a la torpeza, inercia, residuos y despilfarro en la cadena productiva.<br><br/>Partiendo de la definición de muda que se desarrolló inicialmente en el Lean manufacturing se presenta a continuación, los tipos de desperdicios con sus características y particularidades que se dan en los diferentes procesos productivos del sector industrial. 
+    p.mb-4(data-aos="fade-right") Se presentan en las diferentes actividades o procesos que desarrolla la empresa y estas se fundamentan en el concepto de “muda” que es una expresión japonesa que hace referencia a la torpeza, inercia, residuos y despilfarro en la cadena productiva.<br><br/>Partiendo de la definición de muda que se desarrolló inicialmente en el <i>Lean manufacturing</i> se presenta a continuación, los tipos de desperdicios con sus características y particularidades que se dan en los diferentes procesos productivos del sector industrial. 
 
     .fraja2.mb-0(data-aos="zoom-in")
     .tabla-editada3.mb-4(data-aos="zoom-in")
@@ -175,7 +175,7 @@
             td.text-center.p-0.mb-0 
               figure
                 img(src='@/assets/curso/tema3/9.jpg', class='img-fluid')
-            td.px-md-4.px-3 Este desperdicio pertenece a los más sutiles, pues no se puede identificar a corto plazo: se da una vez que el personal está infrautilizado y la empresa desaprovecha las capacidades, conocimiento y experiencia de su personal.<br><br/>La prudencia del trabajador o la autoridad del capataz tiene la posibilidad de determinar la interacción interpersonal y no llegar a conocer el potencial de los individuos con los que se trabaja.<br><br/>Únicamente se puede identificar una vez que existe un cauce de comunicación con el empleado y se le escucha. Como reza una de las máximas del Lean: «el trabajo lo conoce quien lo realiza» (Production Tools, 2021).
+            td.px-md-4.px-3 Este desperdicio pertenece a los más sutiles, pues no se puede identificar a corto plazo: se da una vez que el personal está infrautilizado y la empresa desaprovecha las capacidades, conocimiento y experiencia de su personal.<br><br/>La prudencia del trabajador o la autoridad del capataz tiene la posibilidad de determinar la interacción interpersonal y no llegar a conocer el potencial de los individuos con los que se trabaja.<br><br/>Únicamente se puede identificar una vez que existe un cauce de comunicación con el empleado y se le escucha. Como reza una de las máximas del <i>Lean</i>: «el trabajo lo conoce quien lo realiza» (Production Tools, 2021).
             td.px-md-4.px-3
               ul.lista-ul.lista-ul.lista-ul--color
                   li
@@ -191,9 +191,9 @@
 
 
     #t_3_3.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
-      h2 3.3.	Causas posibles y acciones Lean
+      h2 3.3.	Causas posibles y acciones <i>Lean</i>
     
-    p.mb-4(data-aos="fade-right") Las posibles causas que generan desperdicios en el Lean manufacturing se identifican a continuación:
+    p.mb-4(data-aos="fade-right") Las posibles causas que generan desperdicios en el <i>Lean manufacturing</i> se identifican a continuación:
 
     .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #AEDBEF")(data-aos="zoom-in")
       ul.lista-ul.lista-ul.lista-ul--color2
