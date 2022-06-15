@@ -57,7 +57,7 @@
                   .indicador--click(v-if="mostrarIndicador")
                   h4 TQM (<i>Total quality management</i>)
                   .tarjeta-numerada__contenido
-                    p.mb-0 calidad total mediante la eficiencia y eficacia de la producción.
+                    p.mb-0 Calidad total mediante la eficiencia y eficacia de la producción.
 
             .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
@@ -66,7 +66,7 @@
                   .indicador--click(v-if="mostrarIndicador")
                   h4 JIT (<i>Just in time</i> o justo a tiempo)
                   .tarjeta-numerada__contenido
-                    p.mb-0 respetar este sistema será producir solo a demanda.
+                    p.mb-0 Respetar este sistema será producir solo a demanda.
 
             .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
@@ -75,7 +75,7 @@
                   .indicador--click(v-if="mostrarIndicador")
                   h4 <i>Kaizen</i>
                   .tarjeta-numerada__contenido
-                    p.mb-0 el sistema que asegura la mejora continua.
+                    p.mb-0 El sistema que asegura la mejora continua.
         
         .col-lg-6.mb-5
           .row.justify-content-center(@mouseover="mostrarIndicador = false")
@@ -86,7 +86,7 @@
                   .indicador--click(v-if="mostrarIndicador")
                   h4 TOC (Teoría de las restricciones o de las limitaciones)
                   .tarjeta-numerada__contenido
-                    p.mb-0 se basa en encontrar el cuello de botella para marcar el ritmo productivo de la cadena.
+                    p.mb-0 Se basa en encontrar el cuello de botella para marcar el ritmo productivo de la cadena.
 
             .col-md-5.col-xl.mb-5.mb-xl-0.mb-5
               .tarjeta-avatar
@@ -95,7 +95,7 @@
                   .indicador--click(v-if="mostrarIndicador")
                   h4 Reingeniería de procesos
                   .tarjeta-numerada__contenido
-                    p.mb-0 perfecciona la mejora a gran escala.
+                    p.mb-0 Perfecciona la mejora a gran escala.
 
       .row.mb-4(data-aos="fade-left")
         .col-md-5(data-aos="zoom-in")

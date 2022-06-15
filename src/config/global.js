@@ -158,61 +158,61 @@ export default {
   referencias: [
     {
       referencia:
-        'Andreu, I. (2021). Lean manufacturing: ¿qué es y cuáles son sus principios?',
+        'Andreu, I. (2021). <i>Lean manufacturing</i>: ¿qué es y cuáles son sus principios?. ',
       link:
         'https://www.apd.es/lean-manufacturing-que-es/#:~:text=La%20filosof%C3%ADa%20Lean%20Manufacturing%2C%20tambi%C3%A9n,al%20proceso%20ni%20al%20cliente',
     },
     {
       referencia:
-        'Alteco Consultores. (s.f.). Qué es un diagrama de flujo de proceso o flujograma.',
+        'Alteco Consultores. (s.f.). Qué es un diagrama de flujo de proceso o flujograma. ',
       link: 'https://www.aiteco.com/diagrama-de-flujo/',
     },
     {
-      referencia: 'Navarro, M. (2012). Técnicas de ventas.',
+      referencia: 'Navarro, M. (2012). Técnicas de ventas. ',
       link:
         'https://www.aliat.click/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
     },
     {
       referencia:
-        'Arenas, J. y Castro, A. (2021). Plan de intervención al proceso productivo en la empresa Industrias Alimenticias Carolina S.A.S. Universidad EAN Facultad de Administración, Finanzas y Ciencias Económicas Maestría en Administración de Empresas MBA.',
+        'Arenas, J. y Castro, A. (2021). Plan de intervención al proceso productivo en la empresa Industrias Alimenticias Carolina S.A.S. Universidad EAN Facultad de Administración, Finanzas y Ciencias Económicas Maestría en Administración de Empresas MBA. ',
     },
     {
       referencia:
-        'González, F. (2007). Manufactura esbelta (Lean manufacturing). Principales herramientas. Revista Panorama Administrativo, 1(2).',
+        'González, F. (2007). Manufactura esbelta (<i>Lean manufacturing</i>). Principales herramientas. Revista Panorama Administrativo, 1(2). ',
     },
     {
       referencia:
-        'LeanBox, (s.f.). Lean manufacturing. Un sistema de producción eficiente para series cortas y variadas.',
+        'LeanBox, (s.f.). <i>Lean manufacturing</i>. Un sistema de producción eficiente para series cortas y variadas. ',
       link: 'https://leanbox.es/que-hacemos/sistemas-de-produccion-lean/',
     },
     {
       referencia:
-        'Olaya, M. y Romero, S. (2015). Desarrollo de manufactura esbelta en los procesos de la empresa Martinplast S.A.S. Universidad Libre Facultad de Ingeniería, Programa de Ingeniería Industrial.',
+        'Olaya, M. y Romero, S. (2015). Desarrollo de manufactura esbelta en los procesos de la empresa Martinplast S.A.S. Universidad Libre Facultad de Ingeniería, Programa de Ingeniería Industrial. ',
     },
     {
       referencia:
-        'Production Tools. (2021). 8 desperdicios en Lean manufacturing',
+        'Production Tools. (2021). 8 desperdicios en <i>Lean manufacturing.</i> ',
       link:
         'https://productiontools.es/lean/desperdicios-en-el-lean-manufacturing/',
     },
     {
-      referencia: 'Quiroga, M. (2019). Proceso productivo. Economipedia.',
+      referencia: 'Quiroga, M. (2019). Proceso productivo. Economipedia. ',
       link: 'https://economipedia.com/definiciones/proceso-productivo.html',
     },
     {
       referencia:
-        'Pérez, A. (2017). Economías de escala: Definición y tipos. OBS Business School.',
+        'Pérez, A. (2017). Economías de escala: Definición y tipos. OBS Business School. ',
       link:
         'https://www.obsbusiness.school/blog/economia-de-escala-definicion-y-tipos',
     },
     {
       referencia:
-        'Ramírez, N., Mungaray, A., Ramírez, M. y Texis, M. (2010). Economías de escala y rendimientos crecientes. Una aplicación en microempresas mexicanas. Nueva Época, vol. XIX, (2), p. 213-230. Centro de Investigación y Docencia Económica, México.',
+        'Ramírez, N., Mungaray, A., Ramírez, M. y Texis, M. (2010). Economías de escala y rendimientos crecientes. Una aplicación en microempresas mexicanas. Nueva Época, vol. XIX, (2), p. 213-230. Centro de Investigación y Docencia Económica, México. ',
       link: 'https://www.redalyc.org/pdf/323/32315831001.pdf',
     },
     {
       referencia:
-        'Tejeda, A. (2011), Mejoras de Lean manufacturing en los sistemas productivos. Ciencia y Sociedad, vol. XXXVI, (2), p. 276-310 Instituto Tecnológico de Santo Domingo, Santo Domingo, República Dominicana.',
+        'Tejeda, A. (2011), Mejoras de <i>Lean manufacturing</i> en los sistemas productivos. Ciencia y Sociedad, vol. XXXVI, (2), p. 276-310 Instituto Tecnológico de Santo Domingo, Santo Domingo, República Dominicana.',
     },
   ],
   glosario: [
@@ -264,7 +264,7 @@ export default {
   ],
   complementario: [
     {
-      texto: 'SENA Antioquia. (2015). Qué es Lean manufacturing ',
+      texto: 'SENA Antioquia. (2015). Qué es <i>Lean manufacturing</i> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=TcEYkfKjOCs',
     },
@@ -309,10 +309,9 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional - Santander',
       },
       {
-        nombre: 'Gloria Amparo López Escudero',
+        nombre: 'Gloria Lida Álzate Suarez',
         cargo: 'Diseñadora instruccional',
-        centro:
-          'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        centro: 'Centro de Gestión Industrial Regional Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',

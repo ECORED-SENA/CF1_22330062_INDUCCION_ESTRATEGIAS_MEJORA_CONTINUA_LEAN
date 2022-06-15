@@ -17,7 +17,7 @@
     separador    
 
     #t_1_1.titulo-segundo.color-acento-contenido.mb-4
-      h2 1.1.	Definición del <i>lean manufacturing</i>
+      h2 1.1.	Definición del <i>Lean manufacturing</i>
 
     .row.mb-4(data-aos="fade-left")
       .col-12.col-md-12
@@ -25,7 +25,7 @@
           .video
             iframe(width="942" height="530" src="https://www.youtube.com/embed/pTgSyydCva8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.mb-4(data-aos="fade-up") El concepto de <i>Lean manufacturing</i> se refiere a la manufactura esbelta, este sistema nace en la primera mitad del Siglo XX y fue implementado en la gerencia de empresas como Toyota, en la que se creó una filosofía donde se promueve el mejoramiento continuo en los procesos de producción, con el objetivo de reducir costos y eliminar actividades que no agreguen valor. 
+    p.mb-4(data-aos="fade-up") El concepto de <i>lean manufacturing</i> se refiere a la manufactura esbelta, este sistema nace en la primera mitad del siglo XX y fue implementado en la gerencia de empresas como Toyota, en la que se creó una filosofía donde se promueve el mejoramiento continuo en los procesos de producción, con el objetivo de reducir costos y eliminar actividades que no agreguen valor. 
 
     .row(data-aos="fade-up")
       .col-md-4
@@ -33,16 +33,16 @@
           img(src='@/assets/curso/tema1/img2.jpg', class='img-fluid' style="width: 420px")
 
       .col-md-8  
-        p.mb-4 Por otro lado, este concepto de manufactura esbelta contempla no solo reducir costos en los procesos productivos, sino que además abarca las actividades de dirección, comercialización y financiación, eliminando las operaciones que son innecesarias y que no se requieren. Entonces, el principal objetivo de este sistema es el de minimizar el desperdicio (todo aquello que no agregue valor y por lo tanto, aquello por lo que el cliente no esté dispuesto a pagar). Cabe señalar que mediante la utilización de un grupo de “Herramientas y técnicas” que ayudan a la identificación y eliminación de desperdicios o defectos (mudas) permite reducir costos para la empresa entre las cuales se destacan: 
+        p.mb-4 Por otro lado, este concepto de manufactura esbelta contempla no solo reducir costos en los procesos productivos, sino que además abarca las actividades de dirección, comercialización y financiación, eliminando las operaciones que son innecesarias y que no se requieren. Entonces, el principal objetivo de este sistema es el de minimizar el desperdicio (todo aquello que no agregue valor y por lo tanto, aquello por lo que el cliente no esté dispuesto a pagar). Cabe señalar que mediante la utilización de un grupo de “herramientas y técnicas” que ayudan a la identificación y eliminación de desperdicios o defectos (mudas) permite reducir costos para la empresa entre las cuales se destacan: 
         .cajon.color-acento-contenido.p-4.mb-4.col-12
-          p La herramienta y técnica de mejora continua (kaizen), metodologías de solución de problemas como 5 porqués y los sistemas a prueba de errores (poka yokes). En un segundo enfoque, se considera el “flujo de producción” (mura) a través del sistema y la reducción de desperdicios, de acuerdo con González (2007), los cuales aplican métodos para mejorar el flujo como son la producción nivelada (reducción de muri), kanban o la tabla de heijunka o de control de producción, conforme con la fuente citada.<br><br/>Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
+          p La herramienta y técnica de mejora continua (<i>kaizen</i>), metodologías de solución de problemas como 5 porqués y los sistemas a prueba de errores (<i>poka yokes</i>). En un segundo enfoque, se considera el “flujo de producción” (<i>mura</i>) a través del sistema y la reducción de desperdicios, de acuerdo con González (2007), los cuales aplican métodos para mejorar el flujo como son la producción nivelada (reducción de <i>muri</i>), <i>kanban</i> o la tabla de heijunka o de control de producción, conforme con la fuente citada.<br><br/>Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
 
     p.mb-5(data-aos="fade-up") Por esto, la implementación de diferentes herramientas son claves para la competitividad de las empresas y su objetivo de competir con éxito en los mercados, por lo que se deben proyectar los siguientes objetivos, ver figura: 
 
     .bg_grad-02
       .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-up")
         h5 Figura 1
-        span Objetivos de la gestión del Lean manufacturing
+        span <i>Objetivos de la gestión del Lean manufacturing</i>
 
       .row.justify-content-center(data-aos="fade-up")
         .col-md-8 
@@ -139,9 +139,9 @@
           .bloque-texto-b.color-primario.p-2.pb-xl-5.cajon-comillas-color.mx-auto.mb-4(style="color: #D2E1F1")
             .bloque-texto-b__texto
               i.fas.fa-quote-left
-              h4.mb-0 “Trabajo en equipo: los resultados positivos de la aplicación, las distintas herramientas y técnicas que da <em>lean</em> no son alcanzables si no se cuenta con un factor fundamental: el trabajo en grupo”.
+              h4.mb-0 “Trabajo en equipo: los resultados positivos de la aplicación, las distintas herramientas y técnicas que da <em>lean</em> no son alcanzables si no se cuenta con un factor fundamental: el trabajo en grupo”
               i.fas.fa-quote-right.float-end
-          p.mb-4 A continuación, se presenta en la figura los aspectos fundamentales que deben tener presente las empresas para implementar una técnica con enfoque kaizen: 
+          p.mb-4 A continuación, se presenta en la figura los aspectos fundamentales que deben tener presente las empresas para implementar una técnica con enfoque <i>kaizen</i>: 
 
       .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 2
@@ -161,11 +161,11 @@
     #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 1.4.	Beneficios de la implantación <i>Lean</i>
 
-    p.mb-4(data-aos="fade-right") En este momento un gran número de empresas está descubriendo los beneficios que esta metodología de <i>lean manufacturing</i> brinda al enfocarse en generar valor mediante la atracción del cliente, en la mejora del producto y de los procesos productivos. Por esto se centra en la eliminación de residuos en etapas de transporte, inventario, movimientos, espera, sobreproducción y deterioro. El impacto que estas etapas ocasionan está direccionada a los costos de producción y todas las actividades que no aportan valor añadido al producto final.<br><br/>¿Sabe cuáles son los beneficios que obtienen las empresas que implementan el <i>lean manufacturing</i>? Pues son los siguientes:
+    p.mb-4(data-aos="fade-right") En este momento un gran número de empresas está descubriendo los beneficios que esta metodología de <i>Lean manufacturing</i> brinda al enfocarse en generar valor mediante la atracción del cliente, en la mejora del producto y de los procesos productivos. Por esto se centra en la eliminación de residuos en etapas de transporte, inventario, movimientos, espera, sobreproducción y deterioro. El impacto que estas etapas ocasionan está direccionada a los costos de producción y todas las actividades que no aportan valor añadido al producto final.<br><br/>¿Sabe cuáles son los beneficios que obtienen las empresas que implementan el <i>Lean manufacturing</i>? Pues son los siguientes:
 
     .titulo-sexto.color-acento-contenido.mb-5(data-aos="fade-right")
           h5 Figura 3
-          span Beneficios de la implementación <i>lean</i> en las empresas
+          span Beneficios de la implementación <i>Lean</i> en las empresas
     .row.justify-content-center(data-aos="fade-left")
         .col-md-12
           figure.mb-4
@@ -174,13 +174,13 @@
 
     .bg_grad-06
       #t_1_5.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
-        h2 1.5.	Principios del sistema <i>lean</i>
+        h2 1.5.	Principios del sistema <i>Lean</i>
       .row(data-aos="fade-right")
         p.mb-4 El <i>lean manufacturing</i> se fundamenta en principios que contribuyen a obtener resultados excelentes en el tiempo adecuado y el lugar indicado, siempre con la mejor calidad posible. Pero ¿cuántos y cuáles son esos principios? Son 5 principios del sistema <i>Lean manufacturing</i> y su importancia en la filosofía de las empresas se describe a continuación: 
       
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-md-4
-          h5 5 Principios del sistema <i>lean manufacturing</i>  
+          h5 5 Principios del sistema <i>Lean manufacturing</i>  
 
       .row(data-aos="fade-down")
         SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
@@ -238,14 +238,14 @@
     #t_1_6.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 1.6.	Pensamiento <i>Lean</i>
 
-    p.mb-4(data-aos="fade-right") Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento  que involucra el mejoramiento continuo de los procesos productivos.
+    p.mb-4(data-aos="fade-right") Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento <I>lean</I>  que involucra el mejoramiento continuo de los procesos productivos.
 
     .row.justify-content-center.align-items-center.mt-5.mb-4(data-aos="fade-right")
         .col-lg-12(data-aos="fade-down")
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.jpg')})`}")
             .bloque-texto-g__texto.p-4
-              p(data-aos="fade-down").mb-0 El reto del pensamiento  implica mejorar la capacidad para generar economías de crecimiento donde los costos asociados a la cadena de producción disminuyan en la medida que aumente el número de productos que se fabrican en un tiempo determinado, esto debe reflejarse en los costos aumentando los rendimientos y creando unas competencias empresariales. 
+              p(data-aos="fade-down").mb-0 El reto del pensamiento <i>lean</i> implica mejorar la capacidad para generar economías de crecimiento donde los costos asociados a la cadena de producción disminuyan en la medida que aumente el número de productos que se fabrican en un tiempo determinado, esto debe reflejarse en los costos aumentando los rendimientos y creando unas competencias empresariales. 
     
   
 </template>

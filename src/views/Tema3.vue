@@ -59,7 +59,7 @@
               ul.lista-ul.lista-ul.lista-ul--color
                   li
                     i.fas.fa-circle.fa-xs
-                    span Gran cantidad de stock.
+                    span Gran cantidad de <i>stock</i>.
                   li
                     i.fas.fa-circle.fa-xs
                     span Maquinaria obsoleta.
