@@ -60,7 +60,7 @@
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img3.jpg')})`}")
             .bloque-texto-g__texto.p-4
-              p(data-aos="fade-down").mb-0 El <i>lean manufacturing</i> es un grupo de filosofías administrativas e industriales procedentes de Japón, que se inició en el año 1976, según Olaya y Romero (2015), los Japoneses Eiji Toyoda y Taichi Ohno, de la Toyota Motors Company utilizaron el concepto de <i>lean manufacturing</i>, el cual se basa en técnicas para mejorar, optimizar y maximizar las oportunidades de mejora que se presenten dentro de los procesos. El término <i>lean</i> fue acuñado por un grupo de estudio del Massachusetts Institute of Technology para analizar en el nivel mundial los métodos de manufactura de las empresas de la industria automotriz. Lo anterior conforme a Wilches, Cabarcas, Lucuara y González (2013).
+              p(data-aos="fade-down").mb-0 El <i>lean manufacturing</i> es un grupo de filosofías administrativas e industriales procedentes de Japón, que se inició en el año 1976, según Olaya y Romero (2015), los japoneses Eiji Toyoda y Taichi Ohno, de la Toyota Motors Company utilizaron el concepto de <i>lean manufacturing</i>, el cual se basa en técnicas para mejorar, optimizar y maximizar las oportunidades de mejora que se presenten dentro de los procesos. El término <i>lean</i> fue acuñado por un grupo de estudio del Massachusetts Institute of Technology para analizar en el nivel mundial los métodos de manufactura de las empresas de la industria automotriz. Lo anterior conforme a Wilches, Cabarcas, Lucuara y González (2013).
 
     p.mb-5(data-aos="fade-up") Sabiendo lo anterior, a continuación, se invita a revisar los principales autores que dieron origen al sistema de producción <i>lean manufacturing</i>, sus aportes en este concepto y su utilidad en el sector industrial: 
 
@@ -70,7 +70,7 @@
     separador 
 
     #t_1_3.titulo-segundo.color-acento-contenido.mb-4
-      h2 1.3.	Estructura del sistema <i>lean</i>
+      h2 1.3.	Estructura del sistema <i>Lean</i>
 
     .row.mb-5(data-aos="fade-left")
       .col-md-7
@@ -141,7 +141,7 @@
               i.fas.fa-quote-left
               h4.mb-0 “Trabajo en equipo: los resultados positivos de la aplicación, las distintas herramientas y técnicas que da <em>lean</em> no son alcanzables si no se cuenta con un factor fundamental: el trabajo en grupo”
               i.fas.fa-quote-right.float-end
-          p.mb-4 A continuación, se presenta en la figura los aspectos fundamentales que deben tener presente las empresas para implementar una técnica con enfoque <i>kaizen</i>: 
+          p.mb-4 A continuación, se presenta en la figura los aspectos fundamentales que deben tener presente las empresas para implementar una técnica con enfoque <em>kaizen:</em>
 
       .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 2
@@ -236,16 +236,16 @@
     separador
 
     #t_1_6.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
-      h2 1.6.	Pensamiento <i>Lean</i>
+      h2 1.6.	Pensamiento <em>Lean</em>
 
-    p.mb-4(data-aos="fade-right") Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento <I>lean</I>  que involucra el mejoramiento continuo de los procesos productivos.
+    p.mb-4(data-aos="fade-right") Apunta hacia la reducción de costos que se logra a través de las economías de escala, desafío que implica elevar los niveles de productividad y competitividad, dado que la reducción de los costos unitarios depende del incremento de la capacidad productiva en una planta manufacturera; es por ello que las empresas tratan de optimizar sus escalas de producción en el punto donde el costo unitario es mínimo, conforme lo señalan Ramírez, Mungaray, Ramírez y Texis (2010). Esta reflexión determina el pensamiento <em>lean</em> que involucra el mejoramiento continuo de los procesos productivos.
 
     .row.justify-content-center.align-items-center.mt-5.mb-4(data-aos="fade-right")
         .col-lg-12(data-aos="fade-down")
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
             .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img7.jpg')})`}")
             .bloque-texto-g__texto.p-4
-              p(data-aos="fade-down").mb-0 El reto del pensamiento <i>lean</i> implica mejorar la capacidad para generar economías de crecimiento donde los costos asociados a la cadena de producción disminuyan en la medida que aumente el número de productos que se fabrican en un tiempo determinado, esto debe reflejarse en los costos aumentando los rendimientos y creando unas competencias empresariales. 
+              p(data-aos="fade-down").mb-0 El reto del pensamiento <em>Lean</em> implica mejorar la capacidad para generar economías de crecimiento donde los costos asociados a la cadena de producción disminuyan en la medida que aumente el número de productos que se fabrican en un tiempo determinado, esto debe reflejarse en los costos aumentando los rendimientos y creando unas competencias empresariales. 
     
   
 </template>
