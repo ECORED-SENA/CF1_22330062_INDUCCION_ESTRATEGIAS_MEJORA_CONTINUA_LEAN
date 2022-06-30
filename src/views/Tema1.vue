@@ -188,7 +188,7 @@
             .tarjeta-avatar
               img(src='@/assets/curso/tema1/6.svg' alt='AvatarTop')
               .tarjeta.color-primario.tema-1
-                .p-4
+                .p-3
                   h4.text-center 1. Generar valor
                   p.text-center El valor está en lograr resolver o satisfacer la necesidad del cliente y que esté dispuesto a pagar por el producto o servicio entregado, eliminando todas esas actividades o procesos que no aportan valor y que se consideran como mudas o desperdicios.  
 

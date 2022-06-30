@@ -282,9 +282,10 @@ export default {
     },
     {
       texto:
-        'Rajadell, M. y Sánchez, J. (2010). <i>Lean manufacturing</i>: la evidencia de una necesidad. Ediciones Díaz de Santos. ',
+        'Rajadell, M. y Sánchez, J. (2010). <i>Lean manufacturing</i>: la evidencia de una necesidad. Ediciones Díaz de Santos.',
       tipo: 'Libro',
-      link: 'https://acortar.link/4WSVBE',
+      link:
+        'http://www.ebooks7-24.com.bdigital.sena.edu.co/stage.aspx?il=3883&pg=&ed=',
     },
   ],
   creditos: {

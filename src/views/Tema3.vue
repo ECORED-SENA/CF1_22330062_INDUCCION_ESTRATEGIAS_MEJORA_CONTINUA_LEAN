@@ -214,7 +214,7 @@
           span Ciclos de producción con exceso de tiempo que va en contra de la programación en planta y demoras por eventualidades.
         li
           i.fas.fa-check-circle
-          spanMovimientos innecesarios que se podrían descartar al reemplazar la labor del operario por una máquina sin errores o contratiempos de ninguna clase.
+          span Movimientos innecesarios que se podrían descartar al reemplazar la labor del operario por una máquina sin errores o contratiempos de ninguna clase.
 </template>
 
 <script>
