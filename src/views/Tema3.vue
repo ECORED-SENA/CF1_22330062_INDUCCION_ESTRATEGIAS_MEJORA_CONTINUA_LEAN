@@ -33,8 +33,10 @@
       .col-12.col-md-12
         figure
           .video
-            iframe(width="942" height="530" src="https://www.youtube.com/embed/oJRhtnimo6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="942" height="530" src="https://www.youtube.com/embed/Powx5406v2I" title="Técnicas o herramientas de mejoramiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador 
+
+    <iframe ></iframe>
 
     #t_3_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.2.	Características de los desperdicios
