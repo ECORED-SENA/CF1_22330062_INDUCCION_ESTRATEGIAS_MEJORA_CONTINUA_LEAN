@@ -27,13 +27,19 @@
     #t_3_1.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade-right")
       h2 3.1.	Tipos de mudas o desperdicios de la filosofía de la manufactura esbelta (<i>Lean</i>) 
 
-    p.mb-4(data-aos="fade-right") Según González Correa (2007), citado por Quiñones y Rojas (2020) este concepto de mudas es utilizado en el TPS (sistema de producción Toyota) que permite identificar los desperdicios que deben ser eliminados, estos son:   
+    .tarjeta.color-acento-contenido.p-4.p-md-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
+          img(src="@/assets/curso/vec1.svg")
 
-    .row.mb-4(data-aos="zoom-in")
-      .col-12.col-md-12
-        figure
-          .video
-            iframe(width="942" height="530" src="https://www.youtube.com/embed/Powx5406v2I" title="Técnicas o herramientas de mejoramiento" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .col-md.col-lg-6
+          h3 Infografía 
+          p.mb-4 Según González Correa (2007), citado por Quiñones y Rojas (2020) este concepto de MUDAS es utilizado en el TPS (sistema de producción Toyota) que permite identificar los desperdicios que deben ser eliminados. En la siguiente infografía se explica el concepto de MUDAS.
+          
+          a.boton.color-acento-botones(:href="obtenerLink('downloads/Infografia_Tipos_de_mudas.pdf')" target="_blank" type="application/pdf")
+            span Descargar
+            i.fas.fa-file-download
+    
     separador 
 
     <iframe ></iframe>
